@@ -9,13 +9,7 @@
     "ewma_index": 1.814361176229899,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+2453.276)",
-      "pct_highway (+-1560.638)",
-      "theft_risk_index (+1394.064)",
-      "pct_arterial (+557.029)",
-      "wet_pct (+212.609)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -30,13 +24,7 @@
     "ewma_index": 1.2575705748797046,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+1869.667)",
-      "pct_highway (+-1739.718)",
-      "harsh_lateral_rate_per_100mi (+652.342)",
-      "pct_arterial (+-567.059)",
-      "miles (+-271.638)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -52,11 +40,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1514.026)",
-      "theft_risk_index (+-668.171)",
       "wet_pct (+441.702)",
       "miles (+315.164)",
-      "crash_density_index (+257.760)"
+      "crash_density_index (+257.760)",
+      "pct_arterial (+234.268)",
+      "harsh_lateral_rate_per_100mi (+53.527)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -72,13 +60,7 @@
     "ewma_index": 0.857963228400264,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1856.636)",
-      "pct_highway (+-1828.172)",
-      "harsh_lateral_rate_per_100mi (+-868.206)",
-      "pct_arterial (+370.094)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -93,13 +75,7 @@
     "ewma_index": 0.34305381569658483,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1328.784)",
-      "pct_highway (+-1132.607)",
-      "theft_risk_index (+-590.758)",
-      "harsh_lateral_rate_per_100mi (+-532.384)",
-      "pct_arterial (+-303.300)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -119,7 +95,7 @@
       "pct_highway (+1358.846)",
       "wet_pct (+1260.282)",
       "pct_arterial (+392.583)",
-      "theft_risk_index (+-317.959)"
+      "crash_density_index (+257.760)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -135,13 +111,7 @@
     "ewma_index": 0.8821512342910586,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1623.904)",
-      "trip_count (+560.897)",
-      "harsh_accel_rate_per_100mi (+384.676)",
-      "pct_highway (+209.868)",
-      "pct_arterial (+-201.404)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -156,13 +126,7 @@
     "ewma_index": 0.9714908004215831,
     "telematics_factor_capped": 0.9714908004215831,
     "final_premium": 97.1490800421583,
-    "top_reasons": [
-      "night_pct (+-990.149)",
-      "pct_arterial (+882.120)",
-      "pct_highway (+-746.525)",
-      "harsh_lateral_rate_per_100mi (+720.428)",
-      "theft_risk_index (+614.565)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -180,9 +144,9 @@
     "top_reasons": [
       "night_pct (+1645.055)",
       "pct_highway (+1033.911)",
-      "harsh_lateral_rate_per_100mi (+-734.332)",
       "pct_arterial (+583.460)",
-      "theft_risk_index (+-571.469)"
+      "crash_density_index (+305.828)",
+      "harsh_brake_rate_per_100mi (+291.750)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -198,13 +162,7 @@
     "ewma_index": 1.1239135964557543,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2250.825)",
-      "wet_pct (+-980.189)",
-      "theft_risk_index (+-911.235)",
-      "night_pct (+-865.742)",
-      "trip_count (+413.682)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -219,13 +177,7 @@
     "ewma_index": 1.7198640927235354,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+1985.866)",
-      "theft_risk_index (+1928.618)",
-      "pct_highway (+995.189)",
-      "wet_pct (+958.739)",
-      "pct_arterial (+-652.455)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -244,8 +196,8 @@
       "night_pct (+1974.593)",
       "theft_risk_index (+1697.875)",
       "pct_highway (+993.233)",
-      "wet_pct (+-841.130)",
-      "pct_arterial (+749.362)"
+      "pct_arterial (+749.362)",
+      "harsh_brake_rate_per_100mi (+381.181)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -261,13 +213,7 @@
     "ewma_index": 0.6977667266921393,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1453.094)",
-      "wet_pct (+-691.166)",
-      "pct_arterial (+576.848)",
-      "crash_density_index (+305.828)",
-      "harsh_lateral_rate_per_100mi (+-274.265)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -282,13 +228,7 @@
     "ewma_index": 0.3977880390372135,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1943.549)",
-      "wet_pct (+-909.598)",
-      "night_pct (+430.402)",
-      "pct_arterial (+-274.173)",
-      "theft_risk_index (+-205.276)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -305,10 +245,8 @@
     "final_premium": 81.0,
     "top_reasons": [
       "pct_highway (+2155.058)",
-      "theft_risk_index (+-1082.376)",
-      "night_pct (+-883.092)",
-      "harsh_lateral_rate_per_100mi (+-734.332)",
-      "pct_arterial (+379.529)"
+      "pct_arterial (+379.529)",
+      "miles (+134.344)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -324,13 +262,7 @@
     "ewma_index": 1.8423243657801287,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+2777.735)",
-      "pct_highway (+1594.492)",
-      "harsh_lateral_rate_per_100mi (+-454.731)",
-      "pct_arterial (+-290.601)",
-      "wet_pct (+-151.175)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -345,13 +277,7 @@
     "ewma_index": 1.3562137152305396,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+2606.428)",
-      "pct_highway (+-773.790)",
-      "night_pct (+-746.238)",
-      "harsh_lateral_rate_per_100mi (+-725.815)",
-      "pct_arterial (+416.658)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -367,11 +293,8 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1235.382)",
-      "theft_risk_index (+-953.971)",
-      "pct_highway (+-753.911)",
-      "harsh_lateral_rate_per_100mi (+-718.985)",
-      "harsh_brake_rate_per_100mi (+-250.117)"
+      "pct_arterial (+161.905)",
+      "harsh_accel_rate_per_100mi (+14.679)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -387,13 +310,7 @@
     "ewma_index": 1.1965367427658276,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3514.999)",
-      "pct_highway (+-1452.747)",
-      "wet_pct (+-565.028)",
-      "harsh_lateral_rate_per_100mi (+-372.380)",
-      "pct_arterial (+-272.797)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -408,13 +325,7 @@
     "ewma_index": 1.1149099726102205,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+2049.434)",
-      "night_pct (+-1278.363)",
-      "pct_arterial (+-608.935)",
-      "miles (+411.882)",
-      "harsh_lateral_rate_per_100mi (+319.506)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -432,9 +343,9 @@
     "top_reasons": [
       "theft_risk_index (+2228.334)",
       "pct_highway (+1754.932)",
-      "harsh_lateral_rate_per_100mi (+-660.307)",
       "pct_arterial (+554.827)",
-      "night_pct (+480.525)"
+      "night_pct (+480.525)",
+      "crash_density_index (+105.880)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -450,13 +361,7 @@
     "ewma_index": 0.2979538058628704,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-887.129)",
-      "night_pct (+-876.112)",
-      "harsh_lateral_rate_per_100mi (+-550.693)",
-      "theft_risk_index (+-523.522)",
-      "trip_count (+512.202)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -471,13 +376,7 @@
     "ewma_index": 0.6900754771455391,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+2069.213)",
-      "theft_risk_index (+-1091.400)",
-      "night_pct (+-1024.029)",
-      "harsh_lateral_rate_per_100mi (+-582.364)",
-      "pct_arterial (+564.653)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -493,11 +392,8 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1261.745)",
-      "pct_highway (+-1161.020)",
-      "wet_pct (+-805.560)",
-      "theft_risk_index (+-572.464)",
-      "harsh_lateral_rate_per_100mi (+-357.026)"
+      "harsh_accel_rate_per_100mi (+58.045)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -513,13 +409,7 @@
     "ewma_index": 0.6110460739251515,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1496.191)",
-      "theft_risk_index (+-697.500)",
-      "wet_pct (+-642.317)",
-      "harsh_accel_rate_per_100mi (+458.415)",
-      "pct_arterial (+-408.214)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -534,13 +424,7 @@
     "ewma_index": 0.4585306723920668,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1814.183)",
-      "pct_arterial (+-715.327)",
-      "theft_risk_index (+-463.465)",
-      "trip_count (+462.377)",
-      "harsh_accel_rate_per_100mi (+-216.537)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -557,10 +441,10 @@
     "final_premium": 81.0,
     "top_reasons": [
       "theft_risk_index (+2010.847)",
-      "night_pct (+-1556.977)",
       "pct_arterial (+757.908)",
-      "harsh_lateral_rate_per_100mi (+-571.854)",
-      "wet_pct (+-214.818)"
+      "trip_count (+154.881)",
+      "crash_density_index (+71.058)",
+      "pct_local (+3.367)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -576,13 +460,7 @@
     "ewma_index": 0.44563459327847604,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1452.972)",
-      "pct_arterial (+-733.284)",
-      "harsh_lateral_rate_per_100mi (+423.646)",
-      "miles (+-288.774)",
-      "pct_highway (+-261.533)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -597,13 +475,7 @@
     "ewma_index": 0.5900284550532067,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "theft_risk_index (+1882.674)",
-      "night_pct (+-1333.854)",
-      "wet_pct (+-1006.313)",
-      "pct_arterial (+-830.409)",
-      "miles (+-288.774)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -619,11 +491,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1871.743)",
       "wet_pct (+1077.842)",
-      "theft_risk_index (+-606.605)",
-      "pct_highway (+-397.970)",
-      "pct_arterial (+-330.080)"
+      "miles (+305.280)",
+      "harsh_lateral_rate_per_100mi (+197.512)",
+      "volatility_jerk_p95 (+5.973)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -639,13 +510,7 @@
     "ewma_index": 1.4403830292917048,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+2847.517)",
-      "pct_highway (+-1782.315)",
-      "trip_count (+444.353)",
-      "pct_arterial (+349.780)",
-      "theft_risk_index (+-284.142)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -660,13 +525,7 @@
     "ewma_index": 1.1722614304850865,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+-1486.011)",
-      "pct_highway (+736.950)",
-      "theft_risk_index (+-506.414)",
-      "wet_pct (+485.765)",
-      "harsh_lateral_rate_per_100mi (+340.059)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -682,11 +541,10 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1243.604)",
       "wet_pct (+1240.169)",
-      "pct_highway (+-1166.819)",
-      "theft_risk_index (+-1080.800)",
-      "harsh_lateral_rate_per_100mi (+-369.805)"
+      "pct_arterial (+345.776)",
+      "miles (+283.011)",
+      "pct_local (+127.329)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -702,13 +560,7 @@
     "ewma_index": 0.8497464253012057,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1642.417)",
-      "wet_pct (+1247.019)",
-      "theft_risk_index (+-718.816)",
-      "pct_arterial (+576.848)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -723,13 +575,7 @@
     "ewma_index": 0.8230697151109785,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+1809.333)",
-      "pct_highway (+-1388.440)",
-      "wet_pct (+-769.268)",
-      "harsh_accel_rate_per_100mi (+544.833)",
-      "harsh_lateral_rate_per_100mi (+-403.760)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -745,11 +591,9 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1717.263)",
-      "pct_arterial (+-709.471)",
       "miles (+520.316)",
-      "harsh_lateral_rate_per_100mi (+-400.607)",
-      "wet_pct (+-179.184)"
+      "pct_local (+79.875)",
+      "harsh_accel_rate_per_100mi (+38.553)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -765,13 +609,7 @@
     "ewma_index": 0.61941814684667,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1928.293)",
-      "pct_arterial (+-585.485)",
-      "pct_highway (+572.143)",
-      "theft_risk_index (+-340.980)",
-      "harsh_lateral_rate_per_100mi (+326.591)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -786,13 +624,7 @@
     "ewma_index": 0.6177309554916475,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1753.400)",
-      "theft_risk_index (+-514.777)",
-      "trip_count (+512.202)",
-      "night_pct (+436.272)",
-      "wet_pct (+-339.849)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -809,10 +641,10 @@
     "final_premium": 81.0,
     "top_reasons": [
       "theft_risk_index (+2007.791)",
-      "night_pct (+-1506.027)",
-      "pct_arterial (+-830.409)",
       "harsh_lateral_rate_per_100mi (+258.490)",
-      "pct_highway (+235.998)"
+      "pct_highway (+235.998)",
+      "harsh_brake_rate_per_100mi (+79.867)",
+      "volatility_jerk_p95 (+5.973)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -828,13 +660,7 @@
     "ewma_index": 1.0506038165019067,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_arterial (+733.273)",
-      "pct_highway (+-712.235)",
-      "night_pct (+-694.572)",
-      "harsh_lateral_rate_per_100mi (+638.168)",
-      "trip_count (+338.448)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -849,13 +675,7 @@
     "ewma_index": 0.4275155300236048,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1093.418)",
-      "night_pct (+-932.590)",
-      "harsh_lateral_rate_per_100mi (+-681.605)",
-      "theft_risk_index (+-633.684)",
-      "pct_arterial (+-457.404)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -871,11 +691,11 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "wet_pct (+-1215.844)",
-      "pct_highway (+-1143.330)",
-      "night_pct (+-1078.377)",
-      "theft_risk_index (+-836.077)",
-      "harsh_brake_rate_per_100mi (+386.237)"
+      "harsh_brake_rate_per_100mi (+386.237)",
+      "pct_arterial (+381.863)",
+      "crash_density_index (+305.828)",
+      "harsh_accel_rate_per_100mi (+232.462)",
+      "pct_local (+128.269)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -891,13 +711,7 @@
     "ewma_index": 0.9549143176394114,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2191.511)",
-      "pct_highway (+-1133.166)",
-      "wet_pct (+820.640)",
-      "night_pct (+-776.611)",
-      "pct_arterial (+-653.281)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -912,13 +726,7 @@
     "ewma_index": 1.2509127930254982,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+2546.952)",
-      "pct_highway (+-935.903)",
-      "wet_pct (+876.125)",
-      "night_pct (+-742.625)",
-      "pct_arterial (+621.573)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -936,9 +744,9 @@
     "top_reasons": [
       "night_pct (+3913.562)",
       "pct_highway (+1225.567)",
-      "theft_risk_index (+-638.404)",
       "crash_density_index (+305.828)",
-      "harsh_accel_rate_per_100mi (+262.758)"
+      "harsh_accel_rate_per_100mi (+262.758)",
+      "pct_arterial (+237.915)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -954,13 +762,7 @@
     "ewma_index": 0.5989533271800064,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1645.724)",
-      "wet_pct (+-787.456)",
-      "pct_highway (+755.104)",
-      "harsh_accel_rate_per_100mi (+544.833)",
-      "theft_risk_index (+-370.069)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -975,13 +777,7 @@
     "ewma_index": 1.5247821423051622,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+3594.329)",
-      "theft_risk_index (+1329.890)",
-      "pct_highway (+1219.780)",
-      "pct_arterial (+-750.206)",
-      "miles (+406.447)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -997,11 +793,10 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1775.526)",
-      "wet_pct (+-659.786)",
-      "theft_risk_index (+-555.871)",
       "miles (+305.280)",
-      "pct_arterial (+-291.223)"
+      "pct_highway (+159.143)",
+      "pct_local (+100.820)",
+      "volatility_jerk_p95 (+10.486)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1017,13 +812,7 @@
     "ewma_index": 1.917625538255504,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2313.320)",
-      "wet_pct (+766.844)",
-      "pct_arterial (+713.727)",
-      "night_pct (+-705.018)",
-      "trip_count (+413.682)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1038,13 +827,7 @@
     "ewma_index": 1.3831202178883673,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+-1265.620)",
-      "wet_pct (+863.274)",
-      "night_pct (+541.184)",
-      "harsh_lateral_rate_per_100mi (+521.433)",
-      "theft_risk_index (+-432.901)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1062,9 +845,9 @@
     "top_reasons": [
       "pct_highway (+2491.154)",
       "theft_risk_index (+2459.352)",
-      "wet_pct (+-899.665)",
       "pct_arterial (+855.935)",
-      "night_pct (+-597.508)"
+      "harsh_brake_rate_per_100mi (+403.988)",
+      "harsh_lateral_rate_per_100mi (+233.881)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1080,13 +863,7 @@
     "ewma_index": 1.8207580654646374,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2397.508)",
-      "pct_arterial (+1070.431)",
-      "night_pct (+-939.209)",
-      "pct_highway (+-726.760)",
-      "harsh_lateral_rate_per_100mi (+690.388)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1101,13 +878,7 @@
     "ewma_index": 1.189864436373165,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+-793.799)",
-      "pct_highway (+-605.686)",
-      "harsh_lateral_rate_per_100mi (+-604.631)",
-      "theft_risk_index (+-562.154)",
-      "harsh_brake_rate_per_100mi (+522.153)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1125,9 +896,9 @@
     "top_reasons": [
       "pct_highway (+2117.543)",
       "wet_pct (+852.908)",
-      "night_pct (+-839.679)",
       "pct_arterial (+697.739)",
-      "harsh_brake_rate_per_100mi (+446.791)"
+      "harsh_brake_rate_per_100mi (+446.791)",
+      "crash_density_index (+257.760)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1143,13 +914,7 @@
     "ewma_index": 1.1683546630023889,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+1974.668)",
-      "night_pct (+-1206.295)",
-      "pct_arterial (+-703.425)",
-      "pct_highway (+444.379)",
-      "harsh_lateral_rate_per_100mi (+131.028)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1164,13 +929,7 @@
     "ewma_index": 1.217937443345402,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2355.070)",
-      "pct_highway (+-1688.806)",
-      "theft_risk_index (+1457.852)",
-      "pct_arterial (+607.878)",
-      "harsh_lateral_rate_per_100mi (+-566.047)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1188,9 +947,7 @@
     "top_reasons": [
       "night_pct (+2425.932)",
       "pct_highway (+1348.747)",
-      "wet_pct (+-522.809)",
-      "pct_arterial (+371.380)",
-      "harsh_lateral_rate_per_100mi (+-274.265)"
+      "pct_arterial (+371.380)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1206,13 +963,7 @@
     "ewma_index": 0.9195561609468789,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-622.332)",
-      "pct_highway (+-460.694)",
-      "wet_pct (+379.640)",
-      "pct_arterial (+378.422)",
-      "harsh_brake_rate_per_100mi (+274.207)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1227,13 +978,7 @@
     "ewma_index": 1.018228854527435,
     "telematics_factor_capped": 1.018228854527435,
     "final_premium": 101.82288545274349,
-    "top_reasons": [
-      "theft_risk_index (+1992.645)",
-      "night_pct (+-1570.546)",
-      "harsh_accel_rate_per_100mi (+702.562)",
-      "pct_arterial (+-684.725)",
-      "pct_highway (+463.871)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1250,10 +995,10 @@
     "final_premium": 112.00517399801785,
     "top_reasons": [
       "theft_risk_index (+1718.933)",
-      "night_pct (+-1384.119)",
       "wet_pct (+1005.133)",
-      "pct_arterial (+-489.881)",
-      "harsh_lateral_rate_per_100mi (+221.823)"
+      "harsh_lateral_rate_per_100mi (+221.823)",
+      "pct_highway (+214.303)",
+      "trip_count (+149.575)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1269,13 +1014,7 @@
     "ewma_index": 0.38009071362530594,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1092.393)",
-      "night_pct (+-1084.332)",
-      "wet_pct (+828.647)",
-      "theft_risk_index (+-562.878)",
-      "pct_arterial (+-293.913)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1290,13 +1029,7 @@
     "ewma_index": 0.6308405344996715,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1014.114)",
-      "theft_risk_index (+-872.723)",
-      "wet_pct (+843.498)",
-      "harsh_brake_rate_per_100mi (+576.658)",
-      "pct_arterial (+571.244)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1312,11 +1045,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1536.525)",
       "wet_pct (+828.647)",
-      "theft_risk_index (+-606.563)",
-      "pct_arterial (+-605.505)",
-      "miles (+-356.349)"
+      "harsh_lateral_rate_per_100mi (+47.082)",
+      "volatility_jerk_p95 (+10.486)",
+      "pct_local (+6.675)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1332,13 +1064,7 @@
     "ewma_index": 1.448591290826544,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2393.241)",
-      "night_pct (+-843.783)",
-      "wet_pct (+-831.612)",
-      "pct_arterial (+697.739)",
-      "harsh_brake_rate_per_100mi (+291.750)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1353,13 +1079,7 @@
     "ewma_index": 1.3712421690262053,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+1800.749)",
-      "pct_arterial (+605.457)",
-      "harsh_brake_rate_per_100mi (+501.295)",
-      "harsh_lateral_rate_per_100mi (+-487.742)",
-      "night_pct (+400.638)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1375,11 +1095,11 @@
     "telematics_factor_capped": 1.0327219556915643,
     "final_premium": 103.27219556915644,
     "top_reasons": [
-      "pct_highway (+-1752.288)",
       "theft_risk_index (+1555.364)",
       "night_pct (+1144.840)",
-      "wet_pct (+-829.074)",
-      "pct_arterial (+-688.468)"
+      "harsh_brake_rate_per_100mi (+98.805)",
+      "miles (+60.117)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -1395,13 +1115,7 @@
     "ewma_index": 0.4144024520339691,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1093.799)",
-      "night_pct (+-1090.018)",
-      "wet_pct (+813.706)",
-      "theft_risk_index (+-631.134)",
-      "miles (+-263.197)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1416,13 +1130,7 @@
     "ewma_index": 0.5522559294233371,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1626.738)",
-      "wet_pct (+956.318)",
-      "pct_highway (+698.436)",
-      "pct_arterial (+-457.706)",
-      "theft_risk_index (+-355.840)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1438,11 +1146,11 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1959.928)",
       "wet_pct (+963.775)",
-      "pct_arterial (+-474.868)",
       "trip_count (+413.682)",
-      "miles (+-271.958)"
+      "harsh_lateral_rate_per_100mi (+197.512)",
+      "harsh_brake_rate_per_100mi (+171.862)",
+      "pct_local (+46.263)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1458,13 +1166,7 @@
     "ewma_index": 1.4967594622305145,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3323.025)",
-      "pct_highway (+-1619.392)",
-      "harsh_lateral_rate_per_100mi (+652.342)",
-      "pct_arterial (+-422.271)",
-      "wet_pct (+212.983)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1479,13 +1181,7 @@
     "ewma_index": 1.222848253762649,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+-1549.646)",
-      "night_pct (+1244.359)",
-      "harsh_lateral_rate_per_100mi (+795.346)",
-      "pct_arterial (+479.097)",
-      "theft_risk_index (+-408.177)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1501,11 +1197,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1472.671)",
       "harsh_accel_rate_per_100mi (+673.085)",
       "harsh_lateral_rate_per_100mi (+558.477)",
-      "pct_highway (+-527.199)",
-      "theft_risk_index (+-466.602)"
+      "harsh_brake_rate_per_100mi (+343.834)",
+      "pct_local (+37.542)",
+      "volatility_jerk_p95 (+12.824)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1521,13 +1217,7 @@
     "ewma_index": 0.7322412093091284,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1270.040)",
-      "pct_arterial (+-733.284)",
-      "pct_highway (+575.330)",
-      "miles (+-356.349)",
-      "wet_pct (+349.892)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1542,13 +1232,7 @@
     "ewma_index": 1.7674892189413292,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4382.695)",
-      "pct_highway (+1642.444)",
-      "wet_pct (+801.436)",
-      "harsh_accel_rate_per_100mi (+545.879)",
-      "trip_count (+429.171)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1566,9 +1250,9 @@
     "top_reasons": [
       "night_pct (+2700.795)",
       "pct_highway (+1101.736)",
-      "wet_pct (+-921.653)",
-      "theft_risk_index (+-475.512)",
-      "pct_arterial (+315.289)"
+      "pct_arterial (+315.289)",
+      "miles (+149.343)",
+      "harsh_lateral_rate_per_100mi (+68.893)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1584,13 +1268,7 @@
     "ewma_index": 0.6444775337162265,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1406.240)",
-      "pct_arterial (+-709.471)",
-      "miles (+520.316)",
-      "harsh_lateral_rate_per_100mi (+-489.060)",
-      "pct_highway (+430.164)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1605,13 +1283,7 @@
     "ewma_index": 0.694144358265371,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1828.691)",
-      "wet_pct (+963.775)",
-      "pct_highway (+673.609)",
-      "theft_risk_index (+-550.957)",
-      "pct_arterial (+-330.080)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1630,8 +1302,7 @@
       "night_pct (+2804.111)",
       "pct_highway (+774.170)",
       "trip_count (+560.897)",
-      "harsh_lateral_rate_per_100mi (+-454.731)",
-      "pct_arterial (+-273.439)"
+      "theft_risk_index (+199.968)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1647,13 +1318,7 @@
     "ewma_index": 2.1386688781955594,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3942.058)",
-      "pct_highway (+589.162)",
-      "harsh_accel_rate_per_100mi (+554.536)",
-      "pct_arterial (+-546.407)",
-      "harsh_lateral_rate_per_100mi (+423.646)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1668,13 +1333,7 @@
     "ewma_index": 0.9588576165017213,
     "telematics_factor_capped": 0.9588576165017213,
     "final_premium": 95.88576165017213,
-    "top_reasons": [
-      "night_pct (+-1490.226)",
-      "pct_highway (+-1136.736)",
-      "theft_risk_index (+-921.229)",
-      "pct_arterial (+308.152)",
-      "miles (+-263.197)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1691,10 +1350,10 @@
     "final_premium": 105.47433781518936,
     "top_reasons": [
       "theft_risk_index (+2183.566)",
-      "night_pct (+-1408.597)",
       "pct_arterial (+963.469)",
-      "harsh_lateral_rate_per_100mi (+-569.106)",
-      "pct_highway (+419.680)"
+      "pct_highway (+419.680)",
+      "harsh_brake_rate_per_100mi (+390.402)",
+      "miles (+315.164)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1710,13 +1369,7 @@
     "ewma_index": 0.4783223700996095,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1648.647)",
-      "pct_highway (+670.910)",
-      "harsh_lateral_rate_per_100mi (+-563.086)",
-      "theft_risk_index (+-352.938)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1731,13 +1384,7 @@
     "ewma_index": 1.3781350595376813,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+2684.186)",
-      "theft_risk_index (+2540.394)",
-      "pct_arterial (+567.321)",
-      "night_pct (+-550.662)",
-      "wet_pct (+354.792)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1754,10 +1401,8 @@
     "final_premium": 100.0688846179545,
     "top_reasons": [
       "theft_risk_index (+2244.510)",
-      "pct_highway (+-1098.832)",
-      "night_pct (+-793.266)",
-      "wet_pct (+-642.317)",
-      "harsh_lateral_rate_per_100mi (+-379.376)"
+      "harsh_accel_rate_per_100mi (+374.660)",
+      "pct_local (+59.076)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -1773,13 +1418,7 @@
     "ewma_index": 2.118700469580996,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3020.335)",
-      "pct_highway (+1106.920)",
-      "pct_arterial (+-460.173)",
-      "harsh_lateral_rate_per_100mi (+420.456)",
-      "theft_risk_index (+320.773)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1794,13 +1433,7 @@
     "ewma_index": 1.3815153650953513,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+2155.105)",
-      "theft_risk_index (+-968.692)",
-      "night_pct (+-858.413)",
-      "harsh_lateral_rate_per_100mi (+-486.111)",
-      "pct_arterial (+300.232)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1818,9 +1451,9 @@
     "top_reasons": [
       "night_pct (+4467.815)",
       "pct_highway (+1395.916)",
-      "harsh_lateral_rate_per_100mi (+-734.332)",
       "trip_count (+242.807)",
-      "crash_density_index (+122.715)"
+      "crash_density_index (+122.715)",
+      "pct_arterial (+78.431)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1836,13 +1469,7 @@
     "ewma_index": 1.2825412578124271,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2473.587)",
-      "night_pct (+-702.596)",
-      "wet_pct (+-583.181)",
-      "pct_arterial (+438.930)",
-      "harsh_lateral_rate_per_100mi (+-274.265)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1857,13 +1484,7 @@
     "ewma_index": 0.7427787693576516,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1192.936)",
-      "night_pct (+-971.910)",
-      "harsh_lateral_rate_per_100mi (+-743.450)",
-      "pct_arterial (+461.210)",
-      "harsh_accel_rate_per_100mi (+271.577)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1880,9 +1501,7 @@
     "final_premium": 88.41285528321123,
     "top_reasons": [
       "night_pct (+1469.565)",
-      "pct_highway (+-1362.326)",
       "wet_pct (+1331.955)",
-      "theft_risk_index (+-674.755)",
       "trip_count (+560.897)"
     ],
     "is_first_month": false,
@@ -1899,13 +1518,7 @@
     "ewma_index": 0.8830022850101988,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2226.006)",
-      "theft_risk_index (+-1115.170)",
-      "night_pct (+-1033.611)",
-      "wet_pct (+-549.895)",
-      "pct_arterial (+340.677)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1920,13 +1533,7 @@
     "ewma_index": 0.8575810466011906,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+2798.394)",
-      "pct_highway (+-1751.856)",
-      "harsh_lateral_rate_per_100mi (+-892.672)",
-      "theft_risk_index (+-367.598)",
-      "miles (+309.729)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -1943,10 +1550,9 @@
     "final_premium": 99.00000000000001,
     "top_reasons": [
       "pct_highway (+1313.805)",
-      "theft_risk_index (+-788.858)",
       "night_pct (+585.997)",
       "pct_arterial (+355.593)",
-      "wet_pct (+-301.308)"
+      "harsh_lateral_rate_per_100mi (+202.158)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -1962,13 +1568,7 @@
     "ewma_index": 1.0995483518221636,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+1771.914)",
-      "night_pct (+-1029.894)",
-      "pct_highway (+-822.146)",
-      "pct_arterial (+-684.725)",
-      "harsh_lateral_rate_per_100mi (+595.251)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -1983,13 +1583,7 @@
     "ewma_index": 1.1056809565111607,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_arterial (+928.222)",
-      "harsh_lateral_rate_per_100mi (+746.028)",
-      "night_pct (+-730.979)",
-      "pct_highway (+-670.485)",
-      "theft_risk_index (+-528.038)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2025,13 +1619,7 @@
     "ewma_index": 0.2009940446812171,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1245.575)",
-      "night_pct (+-1063.526)",
-      "harsh_lateral_rate_per_100mi (+-572.203)",
-      "pct_arterial (+-520.401)",
-      "miles (+520.316)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2046,13 +1634,7 @@
     "ewma_index": 0.28588191026494686,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1955.001)",
-      "wet_pct (+-643.935)",
-      "trip_count (+505.587)",
-      "pct_arterial (+-309.027)",
-      "theft_risk_index (+-259.205)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2067,13 +1649,7 @@
     "ewma_index": 0.054017202921512346,
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
-    "top_reasons": [
-      "night_pct (+-1137.929)",
-      "pct_highway (+-1111.308)",
-      "theft_risk_index (+-663.740)",
-      "wet_pct (+-629.994)",
-      "harsh_lateral_rate_per_100mi (+-372.380)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2088,13 +1664,7 @@
     "ewma_index": 2.394194835792553,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3055.674)",
-      "pct_highway (+906.511)",
-      "harsh_accel_rate_per_100mi (+701.831)",
-      "trip_count (+560.897)",
-      "pct_arterial (+-420.580)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2109,13 +1679,7 @@
     "ewma_index": 1.0655456480602437,
     "telematics_factor_capped": 1.0655456480602437,
     "final_premium": 106.55456480602436,
-    "top_reasons": [
-      "night_pct (+-1786.949)",
-      "theft_risk_index (+-875.901)",
-      "pct_arterial (+-733.284)",
-      "pct_highway (+-379.106)",
-      "harsh_lateral_rate_per_100mi (+318.687)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2131,11 +1695,10 @@
     "telematics_factor_capped": 0.9589910832542193,
     "final_premium": 95.89910832542193,
     "top_reasons": [
-      "night_pct (+-1641.481)",
-      "wet_pct (+-824.038)",
       "miles (+520.316)",
-      "pct_arterial (+-511.015)",
-      "theft_risk_index (+-491.606)"
+      "pct_highway (+287.507)",
+      "harsh_lateral_rate_per_100mi (+211.453)",
+      "pct_local (+53.984)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2151,13 +1714,7 @@
     "ewma_index": 0.7753653538624612,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-903.603)",
-      "harsh_lateral_rate_per_100mi (+-798.914)",
-      "night_pct (+-758.417)",
-      "harsh_accel_rate_per_100mi (+617.478)",
-      "theft_risk_index (+-480.808)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2172,13 +1729,7 @@
     "ewma_index": 1.2492176953231022,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2266.753)",
-      "theft_risk_index (+1133.052)",
-      "pct_highway (+1070.628)",
-      "pct_arterial (+-568.237)",
-      "harsh_lateral_rate_per_100mi (+-377.958)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2194,11 +1745,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1728.499)",
-      "pct_arterial (+-782.941)",
-      "theft_risk_index (+-739.214)",
       "miles (+520.316)",
-      "pct_highway (+-288.205)"
+      "pct_local (+166.007)",
+      "harsh_lateral_rate_per_100mi (+138.333)",
+      "harsh_brake_rate_per_100mi (+134.289)",
+      "harsh_accel_rate_per_100mi (+111.146)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2214,13 +1765,7 @@
     "ewma_index": 1.1991362199241107,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1760.459)",
-      "pct_highway (+-1678.387)",
-      "harsh_lateral_rate_per_100mi (+-852.852)",
-      "pct_arterial (+555.218)",
-      "harsh_brake_rate_per_100mi (+386.237)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2235,13 +1780,7 @@
     "ewma_index": 1.2639075778589106,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+-1172.548)",
-      "pct_arterial (+1026.695)",
-      "pct_highway (+618.003)",
-      "harsh_brake_rate_per_100mi (+446.791)",
-      "wet_pct (+442.106)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2258,10 +1797,9 @@
     "final_premium": 114.08552227303007,
     "top_reasons": [
       "night_pct (+1700.321)",
-      "theft_risk_index (+-1107.214)",
       "pct_highway (+1020.761)",
-      "pct_arterial (+-504.878)",
-      "wet_pct (+-210.841)"
+      "harsh_lateral_rate_per_100mi (+133.776)",
+      "volatility_jerk_p95 (+10.486)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -2277,13 +1815,7 @@
     "ewma_index": 0.43021994208245623,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1651.870)",
-      "pct_highway (+757.638)",
-      "wet_pct (+-659.786)",
-      "theft_risk_index (+-555.871)",
-      "miles (+305.280)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2298,13 +1830,7 @@
     "ewma_index": 0.7236491769522007,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1002.409)",
-      "pct_arterial (+939.563)",
-      "pct_highway (+-790.621)",
-      "harsh_lateral_rate_per_100mi (+720.428)",
-      "theft_risk_index (+540.316)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2321,10 +1847,7 @@
     "final_premium": 93.1987003869809,
     "top_reasons": [
       "pct_highway (+2757.018)",
-      "night_pct (+-736.762)",
-      "harsh_lateral_rate_per_100mi (+-660.307)",
-      "pct_arterial (+540.335)",
-      "theft_risk_index (+-528.983)"
+      "pct_arterial (+540.335)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -2340,13 +1863,7 @@
     "ewma_index": 0.7514889041584167,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1683.998)",
-      "miles (+520.261)",
-      "night_pct (+427.259)",
-      "harsh_accel_rate_per_100mi (+271.577)",
-      "pct_arterial (+-269.784)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2361,13 +1878,7 @@
     "ewma_index": 0.5596662812953105,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1366.520)",
-      "pct_highway (+-608.584)",
-      "theft_risk_index (+-600.762)",
-      "harsh_lateral_rate_per_100mi (+498.280)",
-      "pct_arterial (+-330.080)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2383,11 +1894,11 @@
     "telematics_factor_capped": 0.8678836732595692,
     "final_premium": 86.78836732595691,
     "top_reasons": [
-      "night_pct (+-1044.533)",
       "harsh_lateral_rate_per_100mi (+731.522)",
       "pct_arterial (+681.398)",
       "harsh_brake_rate_per_100mi (+507.031)",
-      "pct_highway (+-388.567)"
+      "miles (+307.270)",
+      "wet_pct (+105.212)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -2403,13 +1914,7 @@
     "ewma_index": 0.9971678416005885,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-752.843)",
-      "wet_pct (+699.639)",
-      "pct_highway (+-690.795)",
-      "pct_arterial (+536.808)",
-      "harsh_lateral_rate_per_100mi (+521.433)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2424,13 +1929,7 @@
     "ewma_index": 1.4668912393840938,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2307.961)",
-      "pct_arterial (+896.591)",
-      "theft_risk_index (+-666.257)",
-      "harsh_lateral_rate_per_100mi (+518.783)",
-      "pct_highway (+458.757)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2446,11 +1945,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1386.570)",
-      "pct_arterial (+-758.712)",
       "harsh_accel_rate_per_100mi (+702.562)",
       "pct_highway (+386.853)",
-      "theft_risk_index (+-303.480)"
+      "harsh_lateral_rate_per_100mi (+193.973)",
+      "wet_pct (+37.520)",
+      "pct_local (+15.183)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2466,13 +1965,7 @@
     "ewma_index": 1.7194070634786873,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1711.994)",
-      "theft_risk_index (+1572.079)",
-      "pct_highway (+1241.172)",
-      "wet_pct (+-956.744)",
-      "pct_arterial (+-602.798)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2487,13 +1980,7 @@
     "ewma_index": 0.9460697876237996,
     "telematics_factor_capped": 0.9460697876237996,
     "final_premium": 94.60697876237995,
-    "top_reasons": [
-      "night_pct (+-1046.474)",
-      "pct_highway (+-1026.521)",
-      "harsh_lateral_rate_per_100mi (+-681.605)",
-      "harsh_accel_rate_per_100mi (+617.478)",
-      "trip_count (+560.897)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2509,11 +1996,9 @@
     "telematics_factor_capped": 0.8514628088614197,
     "final_premium": 85.14628088614197,
     "top_reasons": [
-      "night_pct (+-1209.028)",
-      "pct_highway (+-1106.883)",
-      "theft_risk_index (+-785.161)",
-      "harsh_lateral_rate_per_100mi (+-696.959)",
-      "pct_arterial (+-395.121)"
+      "miles (+283.011)",
+      "pct_local (+166.007)",
+      "harsh_brake_rate_per_100mi (+134.289)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2529,13 +2014,7 @@
     "ewma_index": 0.16604919064833132,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1881.092)",
-      "theft_risk_index (+-808.953)",
-      "pct_arterial (+-646.725)",
-      "pct_highway (+-303.859)",
-      "miles (+-250.721)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2550,13 +2029,7 @@
     "ewma_index": 0.689155752715605,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_arterial (+1223.160)",
-      "night_pct (+-1085.750)",
-      "pct_highway (+-817.119)",
-      "harsh_lateral_rate_per_100mi (+690.388)",
-      "harsh_brake_rate_per_100mi (+465.764)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2573,10 +2046,10 @@
     "final_premium": 81.0,
     "top_reasons": [
       "theft_risk_index (+1839.205)",
-      "night_pct (+-1399.156)",
-      "pct_arterial (+-958.188)",
-      "pct_highway (+-435.884)",
-      "harsh_lateral_rate_per_100mi (+374.327)"
+      "harsh_lateral_rate_per_100mi (+374.327)",
+      "harsh_brake_rate_per_100mi (+171.164)",
+      "pct_local (+46.340)",
+      "volatility_jerk_p95 (+5.973)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2592,13 +2065,7 @@
     "ewma_index": 1.2578394419175287,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+2475.509)",
-      "pct_highway (+-1354.347)",
-      "harsh_lateral_rate_per_100mi (+-550.693)",
-      "miles (+277.623)",
-      "wet_pct (+-264.224)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2613,13 +2080,7 @@
     "ewma_index": 1.2413404220469397,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+3507.735)",
-      "pct_highway (+-1476.736)",
-      "theft_risk_index (+401.518)",
-      "pct_arterial (+-332.394)",
-      "wet_pct (+-150.624)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2636,10 +2097,10 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "pct_highway (+2000.710)",
-      "night_pct (+-929.720)",
       "pct_arterial (+857.463)",
       "harsh_brake_rate_per_100mi (+501.295)",
-      "harsh_lateral_rate_per_100mi (+413.824)"
+      "harsh_lateral_rate_per_100mi (+413.824)",
+      "crash_density_index (+305.828)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2655,13 +2116,7 @@
     "ewma_index": 0.11800175731041404,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1314.988)",
-      "pct_highway (+-1262.956)",
-      "theft_risk_index (+-985.394)",
-      "harsh_lateral_rate_per_100mi (+-718.985)",
-      "pct_arterial (+405.221)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2676,13 +2131,7 @@
     "ewma_index": 1.4350132921382484,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4700.861)",
-      "pct_highway (+1453.392)",
-      "wet_pct (+935.162)",
-      "trip_count (+444.353)",
-      "pct_arterial (+-273.439)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2699,10 +2148,9 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "pct_highway (+2515.499)",
-      "night_pct (+-818.339)",
-      "harsh_lateral_rate_per_100mi (+-589.489)",
       "trip_count (+560.897)",
-      "pct_arterial (+540.335)"
+      "pct_arterial (+540.335)",
+      "theft_risk_index (+78.300)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2718,13 +2166,7 @@
     "ewma_index": 2.679044086727474,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2178.500)",
-      "night_pct (+1823.653)",
-      "wet_pct (+1322.736)",
-      "pct_highway (+1232.780)",
-      "miles (+520.261)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2739,13 +2181,7 @@
     "ewma_index": 1.2796659858442931,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+-1053.474)",
-      "harsh_lateral_rate_per_100mi (+-892.672)",
-      "night_pct (+-773.738)",
-      "trip_count (+560.897)",
-      "pct_arterial (+331.893)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2761,11 +2197,10 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "pct_highway (+-1704.858)",
       "night_pct (+1160.920)",
-      "theft_risk_index (+-754.740)",
-      "harsh_lateral_rate_per_100mi (+-566.047)",
-      "miles (+315.108)"
+      "miles (+315.108)",
+      "pct_arterial (+132.760)",
+      "harsh_accel_rate_per_100mi (+14.679)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2781,13 +2216,7 @@
     "ewma_index": 0.7373988543610025,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1877.585)",
-      "pct_highway (+-1850.861)",
-      "harsh_lateral_rate_per_100mi (+-681.605)",
-      "miles (+-271.638)",
-      "harsh_accel_rate_per_100mi (+271.577)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2802,13 +2231,7 @@
     "ewma_index": 0.7624988674143189,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+2502.885)",
-      "night_pct (+-1072.341)",
-      "theft_risk_index (+-1052.983)",
-      "harsh_lateral_rate_per_100mi (+-582.364)",
-      "trip_count (+-150.903)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2826,9 +2249,9 @@
     "top_reasons": [
       "theft_risk_index (+2285.880)",
       "wet_pct (+1223.683)",
-      "pct_highway (+-1008.272)",
-      "night_pct (+-751.955)",
-      "pct_arterial (+507.123)"
+      "pct_arterial (+507.123)",
+      "miles (+423.598)",
+      "harsh_accel_rate_per_100mi (+381.858)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2844,13 +2267,7 @@
     "ewma_index": 0.9944526072524151,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+1900.635)",
-      "pct_highway (+-1469.144)",
-      "wet_pct (+-956.744)",
-      "night_pct (+685.526)",
-      "pct_arterial (+-675.812)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2865,13 +2282,7 @@
     "ewma_index": 1.145159720162078,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+3158.407)",
-      "pct_highway (+-1371.949)",
-      "wet_pct (+631.814)",
-      "pct_arterial (+-565.107)",
-      "harsh_lateral_rate_per_100mi (+504.000)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2889,9 +2300,9 @@
     "top_reasons": [
       "night_pct (+1755.694)",
       "pct_highway (+1068.348)",
-      "pct_arterial (+-682.314)",
-      "theft_risk_index (+-521.161)",
-      "miles (+520.261)"
+      "miles (+520.261)",
+      "harsh_lateral_rate_per_100mi (+423.646)",
+      "harsh_brake_rate_per_100mi (+268.471)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2907,13 +2318,7 @@
     "ewma_index": 0.8412463761087066,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2176.057)",
-      "pct_highway (+-1051.147)",
-      "night_pct (+-1048.484)",
-      "pct_arterial (+-831.204)",
-      "harsh_lateral_rate_per_100mi (+625.291)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2928,13 +2333,7 @@
     "ewma_index": 0.5996167323823653,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1390.761)",
-      "theft_risk_index (+-859.106)",
-      "pct_arterial (+-511.015)",
-      "pct_highway (+451.608)",
-      "miles (+411.882)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -2951,10 +2350,9 @@
     "final_premium": 81.0,
     "top_reasons": [
       "harsh_lateral_rate_per_100mi (+795.346)",
-      "pct_highway (+-785.935)",
       "pct_arterial (+743.098)",
-      "night_pct (+-693.096)",
-      "harsh_brake_rate_per_100mi (+-298.136)"
+      "wet_pct (+168.070)",
+      "volatility_jerk_p95 (+12.824)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -2970,13 +2368,7 @@
     "ewma_index": 1.482620176762696,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2565.814)",
-      "wet_pct (+-831.612)",
-      "night_pct (+-822.581)",
-      "trip_count (+512.202)",
-      "pct_arterial (+482.036)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -2991,13 +2383,7 @@
     "ewma_index": 1.4100776029304258,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+-1379.790)",
-      "night_pct (+1359.625)",
-      "pct_arterial (+994.584)",
-      "harsh_lateral_rate_per_100mi (+746.028)",
-      "harsh_brake_rate_per_100mi (+405.857)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3013,11 +2399,9 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "pct_highway (+-1951.759)",
       "night_pct (+1259.175)",
-      "harsh_lateral_rate_per_100mi (+-597.716)",
-      "theft_risk_index (+-491.619)",
-      "harsh_accel_rate_per_100mi (+355.930)"
+      "harsh_accel_rate_per_100mi (+355.930)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3033,13 +2417,7 @@
     "ewma_index": 0.6712343318431068,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1099.048)",
-      "pct_arterial (+-728.970)",
-      "harsh_lateral_rate_per_100mi (+595.251)",
-      "miles (+520.316)",
-      "theft_risk_index (+-495.768)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3054,13 +2432,7 @@
     "ewma_index": 0.43675376632828067,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1086.322)",
-      "pct_highway (+-926.579)",
-      "pct_arterial (+-851.221)",
-      "miles (+-356.349)",
-      "theft_risk_index (+-287.908)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3078,9 +2450,9 @@
     "top_reasons": [
       "theft_risk_index (+2477.971)",
       "wet_pct (+1228.183)",
-      "pct_highway (+-878.110)",
-      "night_pct (+-688.225)",
-      "harsh_lateral_rate_per_100mi (+-395.402)"
+      "pct_arterial (+333.787)",
+      "harsh_brake_rate_per_100mi (+168.432)",
+      "pct_local (+97.754)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3096,13 +2468,7 @@
     "ewma_index": 0.29763526604874885,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1892.897)",
-      "pct_arterial (+-860.268)",
-      "theft_risk_index (+-544.308)",
-      "harsh_brake_rate_per_100mi (+255.269)",
-      "harsh_accel_rate_per_100mi (+-172.215)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3117,13 +2483,7 @@
     "ewma_index": 0.370968598148141,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1957.838)",
-      "pct_highway (+607.088)",
-      "pct_arterial (+-475.663)",
-      "theft_risk_index (+-350.978)",
-      "miles (+-271.958)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3140,10 +2500,10 @@
     "final_premium": 81.0,
     "top_reasons": [
       "theft_risk_index (+2074.348)",
-      "pct_highway (+-1024.343)",
-      "night_pct (+-989.514)",
-      "pct_arterial (+-762.468)",
-      "miles (+520.316)"
+      "miles (+520.316)",
+      "harsh_brake_rate_per_100mi (+176.899)",
+      "harsh_accel_rate_per_100mi (+38.553)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3159,13 +2519,7 @@
     "ewma_index": 1.122786287253788,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+2045.789)",
-      "night_pct (+-1169.780)",
-      "theft_risk_index (+-1000.504)",
-      "pct_arterial (+321.230)",
-      "wet_pct (+-297.002)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3180,13 +2534,7 @@
     "ewma_index": 0.8049458564561143,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1476.831)",
-      "night_pct (+766.486)",
-      "wet_pct (+-655.202)",
-      "trip_count (+512.202)",
-      "harsh_lateral_rate_per_100mi (+-388.406)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3204,9 +2552,9 @@
     "top_reasons": [
       "night_pct (+4726.235)",
       "pct_highway (+1478.680)",
-      "harsh_lateral_rate_per_100mi (+-734.332)",
       "pct_arterial (+377.461)",
-      "crash_density_index (+305.828)"
+      "crash_density_index (+305.828)",
+      "miles (+137.086)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3222,13 +2570,7 @@
     "ewma_index": 0.28560834179304523,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1902.516)",
-      "harsh_lateral_rate_per_100mi (+-563.086)",
-      "theft_risk_index (+-370.052)",
-      "harsh_accel_rate_per_100mi (+355.930)",
-      "wet_pct (+-229.938)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3243,13 +2585,7 @@
     "ewma_index": 0.3558097647207614,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1904.708)",
-      "harsh_lateral_rate_per_100mi (+-868.206)",
-      "theft_risk_index (+-716.937)",
-      "pct_arterial (+431.435)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3265,11 +2601,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "pct_highway (+-1903.663)",
-      "harsh_lateral_rate_per_100mi (+-892.672)",
       "pct_arterial (+513.957)",
       "night_pct (+476.643)",
-      "crash_density_index (+305.828)"
+      "crash_density_index (+305.828)",
+      "pct_local (+89.591)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3285,13 +2620,7 @@
     "ewma_index": 2.405694006650633,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3636.747)",
-      "theft_risk_index (+1257.627)",
-      "pct_highway (+1028.951)",
-      "pct_arterial (+-639.589)",
-      "miles (+406.447)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3306,13 +2635,7 @@
     "ewma_index": 1.7223655810320913,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+-1327.163)",
-      "pct_arterial (+1005.993)",
-      "wet_pct (+894.229)",
-      "harsh_brake_rate_per_100mi (+390.402)",
-      "miles (+315.164)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3329,10 +2652,10 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "theft_risk_index (+1994.870)",
-      "night_pct (+-1404.997)",
       "pct_arterial (+1009.179)",
       "wet_pct (+966.844)",
-      "harsh_brake_rate_per_100mi (+373.915)"
+      "harsh_brake_rate_per_100mi (+373.915)",
+      "harsh_lateral_rate_per_100mi (+219.202)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3348,13 +2671,7 @@
     "ewma_index": 1.6261392446847316,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3127.596)",
-      "pct_highway (+-1522.598)",
-      "wet_pct (+1115.889)",
-      "harsh_lateral_rate_per_100mi (+-403.760)",
-      "pct_arterial (+331.242)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3369,13 +2686,7 @@
     "ewma_index": 1.07814125783858,
     "telematics_factor_capped": 1.07814125783858,
     "final_premium": 107.814125783858,
-    "top_reasons": [
-      "theft_risk_index (+1717.897)",
-      "night_pct (+-1401.938)",
-      "pct_arterial (+-712.811)",
-      "harsh_lateral_rate_per_100mi (+-489.060)",
-      "trip_count (+216.350)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3392,10 +2703,10 @@
     "final_premium": 118.59553836224381,
     "top_reasons": [
       "theft_risk_index (+2060.970)",
-      "night_pct (+-1487.965)",
       "wet_pct (+981.786)",
       "harsh_accel_rate_per_100mi (+574.310)",
-      "pct_arterial (+-556.945)"
+      "pct_highway (+464.239)",
+      "harsh_lateral_rate_per_100mi (+21.414)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3411,13 +2722,7 @@
     "ewma_index": 0.7491280481460751,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+1717.419)",
-      "night_pct (+-1444.293)",
-      "wet_pct (+-878.643)",
-      "pct_arterial (+-686.263)",
-      "trip_count (+216.350)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3432,13 +2737,7 @@
     "ewma_index": 1.6126451565581004,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4758.005)",
-      "pct_highway (+1455.687)",
-      "wet_pct (+838.669)",
-      "pct_arterial (+-295.134)",
-      "harsh_accel_rate_per_100mi (+-155.780)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3455,10 +2754,9 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "theft_risk_index (+2532.179)",
-      "pct_highway (+-1009.754)",
-      "night_pct (+-786.015)",
-      "harsh_lateral_rate_per_100mi (+-477.593)",
-      "pct_arterial (+462.516)"
+      "pct_arterial (+462.516)",
+      "pct_local (+59.076)",
+      "harsh_accel_rate_per_100mi (+44.156)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3474,13 +2772,7 @@
     "ewma_index": 0.8765424966450301,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-993.297)",
-      "pct_arterial (+743.098)",
-      "night_pct (+-722.477)",
-      "theft_risk_index (+-529.330)",
-      "wet_pct (+387.960)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3495,13 +2787,7 @@
     "ewma_index": 0.6189842805661089,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1446.428)",
-      "pct_highway (+-1175.568)",
-      "theft_risk_index (+-804.756)",
-      "pct_arterial (+499.278)",
-      "trip_count (+456.892)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3518,10 +2804,9 @@
     "final_premium": 82.33403990839263,
     "top_reasons": [
       "theft_risk_index (+2061.158)",
-      "night_pct (+-1388.727)",
-      "pct_arterial (+-681.730)",
       "pct_highway (+440.041)",
-      "harsh_lateral_rate_per_100mi (+-292.252)"
+      "harsh_accel_rate_per_100mi (+38.553)",
+      "pct_local (+32.567)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -3537,13 +2822,7 @@
     "ewma_index": 0.1943539203320145,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1299.262)",
-      "pct_highway (+-1025.008)",
-      "theft_risk_index (+-1021.853)",
-      "wet_pct (+-966.650)",
-      "harsh_brake_rate_per_100mi (+343.834)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3558,13 +2837,7 @@
     "ewma_index": 0.654564678548238,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "theft_risk_index (+2025.108)",
-      "pct_highway (+-967.026)",
-      "night_pct (+-681.059)",
-      "wet_pct (+395.865)",
-      "miles (+-318.296)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3580,11 +2853,11 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1788.998)",
-      "pct_arterial (+-655.956)",
       "miles (+520.316)",
       "harsh_lateral_rate_per_100mi (+329.781)",
-      "wet_pct (+233.576)"
+      "wet_pct (+233.576)",
+      "theft_risk_index (+102.490)",
+      "pct_local (+39.011)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3600,13 +2873,7 @@
     "ewma_index": 1.0491761690570485,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1881.328)",
-      "pct_highway (+-1619.927)",
-      "harsh_lateral_rate_per_100mi (+-852.852)",
-      "trip_count (+512.202)",
-      "miles (+-262.877)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3621,13 +2888,7 @@
     "ewma_index": 0.9972885088673544,
     "telematics_factor_capped": 0.9972885088673544,
     "final_premium": 99.72885088673544,
-    "top_reasons": [
-      "theft_risk_index (+2064.736)",
-      "night_pct (+-1415.602)",
-      "pct_arterial (+-714.224)",
-      "pct_highway (+433.886)",
-      "miles (+411.882)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3643,11 +2904,11 @@
     "telematics_factor_capped": 0.9445468802895488,
     "final_premium": 94.45468802895488,
     "top_reasons": [
-      "night_pct (+-1591.704)",
-      "theft_risk_index (+-682.199)",
       "pct_arterial (+584.525)",
       "wet_pct (+508.388)",
-      "harsh_lateral_rate_per_100mi (+342.806)"
+      "harsh_lateral_rate_per_100mi (+342.806)",
+      "crash_density_index (+257.760)",
+      "pct_highway (+191.356)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -3663,13 +2924,7 @@
     "ewma_index": 2.181236171955908,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2632.504)",
-      "pct_highway (+2262.583)",
-      "pct_arterial (+623.447)",
-      "night_pct (+-604.012)",
-      "wet_pct (+-599.137)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3684,13 +2939,7 @@
     "ewma_index": 1.4163858321680793,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "wet_pct (+843.498)",
-      "night_pct (+-758.561)",
-      "pct_highway (+-618.380)",
-      "harsh_lateral_rate_per_100mi (+551.474)",
-      "pct_arterial (+536.808)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3707,10 +2956,10 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "night_pct (+3467.511)",
-      "pct_highway (+-1773.993)",
-      "harsh_lateral_rate_per_100mi (+-852.852)",
       "harsh_accel_rate_per_100mi (+452.713)",
-      "trip_count (+444.353)"
+      "trip_count (+444.353)",
+      "pct_arterial (+211.685)",
+      "miles (+137.086)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3726,13 +2975,7 @@
     "ewma_index": 0.7120654220592877,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1708.687)",
-      "harsh_lateral_rate_per_100mi (+-734.332)",
-      "pct_arterial (+681.450)",
-      "theft_risk_index (+-629.517)",
-      "harsh_brake_rate_per_100mi (+310.875)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3747,13 +2990,7 @@
     "ewma_index": 0.9922662086352221,
     "telematics_factor_capped": 0.9922662086352221,
     "final_premium": 99.22662086352221,
-    "top_reasons": [
-      "pct_highway (+1113.434)",
-      "theft_risk_index (+-852.241)",
-      "wet_pct (+719.303)",
-      "night_pct (+572.328)",
-      "harsh_brake_rate_per_100mi (+-193.909)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3769,11 +3006,11 @@
     "telematics_factor_capped": 0.8930395877716999,
     "final_premium": 89.30395877717,
     "top_reasons": [
-      "pct_highway (+-1067.561)",
-      "wet_pct (+-1029.386)",
       "harsh_lateral_rate_per_100mi (+551.474)",
       "pct_arterial (+444.780)",
-      "crash_density_index (+305.828)"
+      "crash_density_index (+305.828)",
+      "night_pct (+300.648)",
+      "miles (+276.802)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3789,13 +3026,7 @@
     "ewma_index": 0.09923582667672182,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1213.284)",
-      "night_pct (+-1114.604)",
-      "theft_risk_index (+-991.385)",
-      "wet_pct (+-691.166)",
-      "harsh_lateral_rate_per_100mi (+-403.760)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3810,13 +3041,7 @@
     "ewma_index": 0.08470709795666012,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1072.026)",
-      "night_pct (+-885.231)",
-      "pct_arterial (+-769.636)",
-      "harsh_lateral_rate_per_100mi (+-643.021)",
-      "wet_pct (+-221.866)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3832,11 +3057,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "pct_highway (+-918.954)",
       "pct_arterial (+743.098)",
-      "night_pct (+-698.061)",
-      "miles (+-318.296)",
-      "harsh_brake_rate_per_100mi (+-298.136)"
+      "wet_pct (+197.862)",
+      "harsh_lateral_rate_per_100mi (+181.720)",
+      "pct_local (+33.184)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -3852,13 +3076,7 @@
     "ewma_index": 0.4867806532673349,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1705.065)",
-      "night_pct (+1170.510)",
-      "harsh_lateral_rate_per_100mi (+-877.318)",
-      "theft_risk_index (+-639.885)",
-      "pct_arterial (+418.437)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3873,13 +3091,7 @@
     "ewma_index": 0.2836208908301372,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-2000.378)",
-      "theft_risk_index (+-551.145)",
-      "harsh_lateral_rate_per_100mi (+-413.864)",
-      "pct_arterial (+-339.466)",
-      "wet_pct (+-241.532)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3898,7 +3110,6 @@
       "night_pct (+2479.753)",
       "pct_highway (+1425.909)",
       "wet_pct (+1086.003)",
-      "theft_risk_index (+-562.680)",
       "pct_arterial (+371.380)"
     ],
     "is_first_month": false,
@@ -3915,13 +3126,7 @@
     "ewma_index": 1.2163274629174645,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2103.384)",
-      "night_pct (+-1583.923)",
-      "pct_arterial (+1009.179)",
-      "wet_pct (+-948.639)",
-      "harsh_brake_rate_per_100mi (+390.402)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3936,13 +3141,7 @@
     "ewma_index": 1.5208667901446324,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2157.462)",
-      "theft_risk_index (+1535.950)",
-      "pct_highway (+1345.285)",
-      "pct_arterial (+-617.894)",
-      "wet_pct (+-606.352)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -3958,11 +3157,11 @@
     "telematics_factor_capped": 1.1312239058063556,
     "final_premium": 113.12239058063555,
     "top_reasons": [
-      "pct_highway (+-1167.816)",
       "pct_arterial (+696.532)",
-      "night_pct (+-665.547)",
       "trip_count (+512.202)",
-      "harsh_brake_rate_per_100mi (+-264.238)"
+      "harsh_lateral_rate_per_100mi (+197.074)",
+      "wet_pct (+175.975)",
+      "theft_risk_index (+66.069)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -3978,13 +3177,7 @@
     "ewma_index": 0.4349147857483541,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1042.936)",
-      "night_pct (+-1002.397)",
-      "wet_pct (+-935.035)",
-      "pct_arterial (+583.374)",
-      "trip_count (+560.897)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -3999,13 +3192,7 @@
     "ewma_index": 0.7304869560270437,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "theft_risk_index (+2509.072)",
-      "wet_pct (+-977.859)",
-      "pct_highway (+-937.966)",
-      "pct_arterial (+725.582)",
-      "night_pct (+-686.364)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4021,11 +3208,10 @@
     "telematics_factor_capped": 0.8494336220033345,
     "final_premium": 84.94336220033345,
     "top_reasons": [
-      "night_pct (+-1487.325)",
       "wet_pct (+1240.169)",
-      "theft_risk_index (+-435.757)",
       "pct_highway (+433.045)",
-      "crash_density_index (+305.828)"
+      "crash_density_index (+305.828)",
+      "pct_arterial (+281.755)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -4041,13 +3227,7 @@
     "ewma_index": 0.08038507972350567,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1299.093)",
-      "pct_highway (+-1066.432)",
-      "theft_risk_index (+-763.575)",
-      "wet_pct (+-657.539)",
-      "harsh_lateral_rate_per_100mi (+-323.071)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4062,13 +3242,7 @@
     "ewma_index": 0.4886924044482913,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1812.898)",
-      "wet_pct (+1039.407)",
-      "pct_highway (+592.401)",
-      "theft_risk_index (+-534.344)",
-      "pct_arterial (+-435.369)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4085,10 +3259,10 @@
     "final_premium": 83.56211190153532,
     "top_reasons": [
       "pct_highway (+2005.634)",
-      "night_pct (+-1220.761)",
-      "theft_risk_index (+-1083.651)",
       "pct_arterial (+480.954)",
-      "harsh_lateral_rate_per_100mi (+416.352)"
+      "harsh_lateral_rate_per_100mi (+416.352)",
+      "miles (+134.344)",
+      "wet_pct (+127.065)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -4104,13 +3278,7 @@
     "ewma_index": 0.8530387200980903,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2038.529)",
-      "night_pct (+-1333.407)",
-      "pct_arterial (+-695.649)",
-      "harsh_lateral_rate_per_100mi (+-489.060)",
-      "pct_highway (+433.493)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4125,13 +3293,7 @@
     "ewma_index": 1.4549127110108884,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4034.134)",
-      "pct_highway (+1390.697)",
-      "harsh_lateral_rate_per_100mi (+-490.489)",
-      "pct_arterial (+446.744)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4148,10 +3310,10 @@
     "final_premium": 105.88219155627559,
     "top_reasons": [
       "wet_pct (+1206.214)",
-      "pct_highway (+-1067.383)",
-      "night_pct (+-864.749)",
       "trip_count (+505.587)",
-      "harsh_lateral_rate_per_100mi (+-428.226)"
+      "pct_arterial (+320.308)",
+      "harsh_accel_rate_per_100mi (+117.031)",
+      "pct_local (+42.031)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -4167,13 +3329,7 @@
     "ewma_index": 1.4479840772849322,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+2740.138)",
-      "pct_highway (+1081.110)",
-      "pct_arterial (+-602.255)",
-      "harsh_lateral_rate_per_100mi (+-489.060)",
-      "miles (+-356.294)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4188,13 +3344,7 @@
     "ewma_index": 0.793579311882743,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1869.389)",
-      "theft_risk_index (+-569.522)",
-      "pct_arterial (+-308.385)",
-      "harsh_lateral_rate_per_100mi (+-305.509)",
-      "miles (+305.280)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4212,8 +3362,6 @@
     "top_reasons": [
       "night_pct (+4165.129)",
       "pct_highway (+1382.379)",
-      "theft_risk_index (+-825.332)",
-      "wet_pct (+-510.326)",
       "trip_count (+444.353)"
     ],
     "is_first_month": false,
@@ -4230,13 +3378,7 @@
     "ewma_index": -0.024826226231497238,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1289.676)",
-      "pct_highway (+-1230.437)",
-      "theft_risk_index (+-1061.158)",
-      "wet_pct (+-675.315)",
-      "harsh_lateral_rate_per_100mi (+-369.805)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4251,13 +3393,7 @@
     "ewma_index": 0.2886000582622223,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "wet_pct (+1247.019)",
-      "pct_highway (+-1018.499)",
-      "night_pct (+-960.846)",
-      "theft_risk_index (+-586.705)",
-      "harsh_lateral_rate_per_100mi (+-387.420)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4273,11 +3409,9 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1633.356)",
       "pct_highway (+699.405)",
-      "harsh_lateral_rate_per_100mi (+-563.086)",
-      "theft_risk_index (+-452.107)",
-      "pct_arterial (+-322.304)"
+      "crash_density_index (+305.828)",
+      "miles (+196.845)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4293,13 +3427,7 @@
     "ewma_index": 2.181236171955908,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2491.773)",
-      "pct_highway (+2256.725)",
-      "wet_pct (+-904.320)",
-      "pct_arterial (+839.947)",
-      "night_pct (+-632.179)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4314,13 +3442,7 @@
     "ewma_index": 1.0216112412979592,
     "telematics_factor_capped": 1.0216112412979592,
     "final_premium": 102.16112412979592,
-    "top_reasons": [
-      "night_pct (+-1742.364)",
-      "pct_arterial (+-860.268)",
-      "theft_risk_index (+-855.624)",
-      "harsh_lateral_rate_per_100mi (+318.687)",
-      "harsh_brake_rate_per_100mi (+213.967)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4336,11 +3458,11 @@
     "telematics_factor_capped": 0.9194501171681633,
     "final_premium": 91.94501171681632,
     "top_reasons": [
-      "night_pct (+-1519.304)",
       "pct_arterial (+669.717)",
-      "theft_risk_index (+-596.133)",
       "harsh_brake_rate_per_100mi (+522.153)",
-      "harsh_lateral_rate_per_100mi (+372.316)"
+      "harsh_lateral_rate_per_100mi (+372.316)",
+      "crash_density_index (+257.760)",
+      "pct_local (+80.475)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4356,13 +3478,7 @@
     "ewma_index": 2.0836226307184513,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+4020.795)",
-      "pct_highway (+900.403)",
-      "pct_arterial (+-659.687)",
-      "theft_risk_index (+-451.495)",
-      "miles (+406.447)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4377,13 +3493,7 @@
     "ewma_index": 1.8754036396978466,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+2226.396)",
-      "pct_arterial (+1053.929)",
-      "night_pct (+-646.431)",
-      "harsh_lateral_rate_per_100mi (+469.465)",
-      "harsh_brake_rate_per_100mi (+403.988)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4399,11 +3509,11 @@
     "telematics_factor_capped": 1.2100000000000002,
     "final_premium": 121.00000000000001,
     "top_reasons": [
-      "night_pct (+-1595.667)",
       "wet_pct (+942.714)",
-      "theft_risk_index (+-489.962)",
-      "pct_arterial (+-457.064)",
-      "pct_highway (+418.735)"
+      "pct_highway (+418.735)",
+      "harsh_lateral_rate_per_100mi (+218.871)",
+      "harsh_brake_rate_per_100mi (+213.967)",
+      "miles (+196.845)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4419,13 +3529,7 @@
     "ewma_index": 1.0116802920076373,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "wet_pct (+1283.409)",
-      "pct_highway (+-1003.625)",
-      "night_pct (+-840.881)",
-      "pct_arterial (+556.255)",
-      "harsh_lateral_rate_per_100mi (+-394.271)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4440,13 +3544,7 @@
     "ewma_index": 0.6427716095434947,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-2027.583)",
-      "pct_highway (+682.252)",
-      "theft_risk_index (+-535.516)",
-      "pct_arterial (+-440.697)",
-      "harsh_accel_rate_per_100mi (+-245.283)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4465,8 +3563,7 @@
       "night_pct (+4016.984)",
       "pct_highway (+1567.250)",
       "wet_pct (+1138.049)",
-      "pct_arterial (+-399.266)",
-      "theft_risk_index (+-303.288)"
+      "pct_local (+19.298)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4482,13 +3579,7 @@
     "ewma_index": 2.510359910759204,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+4600.218)",
-      "pct_highway (+1160.829)",
-      "harsh_lateral_rate_per_100mi (+372.316)",
-      "trip_count (+362.044)",
-      "wet_pct (+-279.632)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4503,13 +3594,7 @@
     "ewma_index": 2.1180591825909074,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2976.171)",
-      "pct_highway (+1282.907)",
-      "pct_arterial (+-567.059)",
-      "harsh_lateral_rate_per_100mi (+415.080)",
-      "theft_risk_index (+259.435)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4525,11 +3610,11 @@
     "telematics_factor_capped": 1.2100000000000002,
     "final_premium": 121.00000000000001,
     "top_reasons": [
-      "pct_highway (+-1382.923)",
-      "theft_risk_index (+-713.243)",
       "harsh_lateral_rate_per_100mi (+650.891)",
       "night_pct (+616.351)",
-      "pct_arterial (+-492.128)"
+      "trip_count (+413.682)",
+      "harsh_brake_rate_per_100mi (+177.598)",
+      "wet_pct (+20.807)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4545,13 +3630,7 @@
     "ewma_index": 0.8935089882781897,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+1993.398)",
-      "theft_risk_index (+-1088.513)",
-      "wet_pct (+-976.202)",
-      "night_pct (+-885.788)",
-      "pct_arterial (+367.796)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4566,13 +3645,7 @@
     "ewma_index": 1.2758525390896645,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+2493.886)",
-      "pct_highway (+1017.564)",
-      "theft_risk_index (+-926.106)",
-      "pct_arterial (+-565.902)",
-      "trip_count (+505.587)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4589,10 +3662,10 @@
     "final_premium": 99.00000000000001,
     "top_reasons": [
       "theft_risk_index (+1939.050)",
-      "night_pct (+-1413.872)",
-      "pct_arterial (+-839.795)",
-      "harsh_lateral_rate_per_100mi (+-486.313)",
-      "pct_highway (+-208.928)"
+      "harsh_brake_rate_per_100mi (+97.836)",
+      "harsh_accel_rate_per_100mi (+76.915)",
+      "pct_local (+22.517)",
+      "volatility_jerk_p95 (+10.486)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4608,13 +3681,7 @@
     "ewma_index": 2.470206650914309,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2632.504)",
-      "pct_highway (+2184.966)",
-      "wet_pct (+1067.372)",
-      "night_pct (+-593.039)",
-      "pct_arterial (+493.808)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4629,13 +3696,7 @@
     "ewma_index": 1.7744722917785847,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+1652.322)",
-      "wet_pct (+1322.736)",
-      "pct_highway (+1059.614)",
-      "theft_risk_index (+-882.818)",
-      "pct_arterial (+-466.021)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4651,11 +3712,8 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "pct_highway (+-1044.558)",
-      "night_pct (+-983.827)",
-      "harsh_lateral_rate_per_100mi (+-743.450)",
       "pct_arterial (+548.541)",
-      "harsh_brake_rate_per_100mi (+-279.011)"
+      "pct_local (+7.726)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4671,13 +3729,7 @@
     "ewma_index": 0.5797509465440637,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1183.232)",
-      "theft_risk_index (+-534.372)",
-      "pct_highway (+-527.761)",
-      "harsh_lateral_rate_per_100mi (+498.280)",
-      "pct_arterial (+-497.674)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4692,13 +3744,7 @@
     "ewma_index": 0.7001446842181773,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1575.249)",
-      "harsh_accel_rate_per_100mi (+673.085)",
-      "pct_highway (+524.950)",
-      "miles (+520.316)",
-      "theft_risk_index (+-508.833)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4715,10 +3761,10 @@
     "final_premium": 99.00000000000001,
     "top_reasons": [
       "night_pct (+2362.060)",
-      "pct_highway (+-1695.896)",
       "theft_risk_index (+1414.600)",
       "pct_arterial (+789.184)",
-      "miles (+277.937)"
+      "miles (+277.937)",
+      "wet_pct (+212.609)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4734,13 +3780,7 @@
     "ewma_index": 0.3778861748938429,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1668.526)",
-      "theft_risk_index (+-738.891)",
-      "pct_arterial (+-633.466)",
-      "miles (+520.316)",
-      "harsh_lateral_rate_per_100mi (+-289.504)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4755,13 +3795,7 @@
     "ewma_index": 1.5849127728006502,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4636.902)",
-      "pct_highway (+1285.305)",
-      "pct_arterial (+569.991)",
-      "harsh_lateral_rate_per_100mi (+510.217)",
-      "wet_pct (+371.479)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4777,11 +3811,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1768.096)",
-      "pct_arterial (+-860.268)",
-      "theft_risk_index (+-458.521)",
       "trip_count (+413.682)",
-      "miles (+-356.349)"
+      "pct_highway (+245.081)",
+      "harsh_brake_rate_per_100mi (+171.862)",
+      "harsh_lateral_rate_per_100mi (+149.426)",
+      "harsh_accel_rate_per_100mi (+77.764)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4797,13 +3831,7 @@
     "ewma_index": 1.1265485653572351,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "wet_pct (+809.954)",
-      "night_pct (+-751.626)",
-      "harsh_lateral_rate_per_100mi (+510.445)",
-      "theft_risk_index (+-470.602)",
-      "pct_highway (+-468.176)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4818,13 +3846,7 @@
     "ewma_index": 1.5176707211593818,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+3954.598)",
-      "pct_highway (+1121.685)",
-      "theft_risk_index (+-590.751)",
-      "pct_arterial (+-438.123)",
-      "trip_count (+380.475)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4840,11 +3862,11 @@
     "telematics_factor_capped": 1.2100000000000002,
     "final_premium": 121.00000000000001,
     "top_reasons": [
-      "pct_highway (+-1076.652)",
       "pct_arterial (+768.498)",
-      "night_pct (+-606.936)",
       "harsh_brake_rate_per_100mi (+405.857)",
-      "trip_count (+306.463)"
+      "trip_count (+306.463)",
+      "harsh_accel_rate_per_100mi (+180.289)",
+      "crash_density_index (+109.954)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4860,13 +3882,7 @@
     "ewma_index": 1.454971029637795,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+1965.939)",
-      "wet_pct (+930.479)",
-      "night_pct (+-916.604)",
-      "pct_arterial (+-408.750)",
-      "harsh_lateral_rate_per_100mi (+211.453)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4881,13 +3897,7 @@
     "ewma_index": 1.5161719569994503,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4249.713)",
-      "pct_highway (+906.142)",
-      "wet_pct (+-783.885)",
-      "pct_arterial (+-610.030)",
-      "theft_risk_index (+-429.695)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4904,10 +3914,9 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "theft_risk_index (+2289.682)",
-      "night_pct (+-929.572)",
-      "pct_highway (+-923.224)",
-      "pct_arterial (+-626.097)",
-      "harsh_lateral_rate_per_100mi (+565.094)"
+      "harsh_lateral_rate_per_100mi (+565.094)",
+      "miles (+520.316)",
+      "pct_local (+25.753)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -4923,13 +3932,7 @@
     "ewma_index": 0.3934733058575257,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1289.927)",
-      "night_pct (+-991.913)",
-      "wet_pct (+-953.046)",
-      "pct_arterial (+603.967)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -4944,13 +3947,7 @@
     "ewma_index": 0.48485005482280125,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1831.602)",
-      "trip_count (+560.897)",
-      "pct_highway (+551.086)",
-      "harsh_lateral_rate_per_100mi (+-411.117)",
-      "pct_arterial (+-357.270)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -4967,10 +3964,8 @@
     "final_premium": 82.34112373258223,
     "top_reasons": [
       "night_pct (+3199.552)",
-      "pct_highway (+-1438.500)",
-      "harsh_lateral_rate_per_100mi (+-852.852)",
-      "theft_risk_index (+-254.146)",
-      "pct_arterial (+132.402)"
+      "pct_arterial (+132.402)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -4986,13 +3981,7 @@
     "ewma_index": 2.160654287318682,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2061.043)",
-      "pct_highway (+1646.213)",
-      "night_pct (+967.285)",
-      "harsh_lateral_rate_per_100mi (+-660.307)",
-      "harsh_accel_rate_per_100mi (+499.953)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5007,13 +3996,7 @@
     "ewma_index": 1.7355554793638766,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+3696.300)",
-      "pct_highway (+-1325.359)",
-      "harsh_accel_rate_per_100mi (+423.967)",
-      "pct_arterial (+-293.596)",
-      "theft_risk_index (+244.637)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5029,11 +4012,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1877.654)",
-      "theft_risk_index (+-345.700)",
-      "pct_arterial (+-326.189)",
-      "harsh_lateral_rate_per_100mi (+-302.762)",
-      "trip_count (+-132.945)"
+      "pct_highway (+112.732)",
+      "harsh_accel_rate_per_100mi (+111.146)",
+      "pct_local (+63.082)",
+      "miles (+35.758)",
+      "volatility_jerk_p95 (+10.486)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5049,13 +4032,7 @@
     "ewma_index": 1.112344157566472,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2004.496)",
-      "night_pct (+-1284.790)",
-      "pct_arterial (+-753.081)",
-      "miles (+411.882)",
-      "pct_highway (+-252.978)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5070,13 +4047,7 @@
     "ewma_index": 1.491888649161111,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+2077.388)",
-      "pct_highway (+1924.461)",
-      "pct_arterial (+-729.860)",
-      "night_pct (+620.407)",
-      "harsh_lateral_rate_per_100mi (+374.327)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5094,9 +4065,9 @@
     "top_reasons": [
       "night_pct (+2558.875)",
       "pct_highway (+1034.567)",
-      "wet_pct (+-842.678)",
-      "pct_arterial (+-659.687)",
-      "miles (+520.261)"
+      "miles (+520.261)",
+      "harsh_lateral_rate_per_100mi (+216.448)",
+      "harsh_brake_rate_per_100mi (+171.164)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5112,13 +4083,7 @@
     "ewma_index": 0.8684183557800059,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1577.629)",
-      "pct_arterial (+866.971)",
-      "theft_risk_index (+-707.073)",
-      "harsh_brake_rate_per_100mi (+446.791)",
-      "harsh_lateral_rate_per_100mi (+275.924)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5133,13 +4098,7 @@
     "ewma_index": 0.7739570049698037,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1527.449)",
-      "pct_arterial (+-602.647)",
-      "harsh_lateral_rate_per_100mi (+415.080)",
-      "trip_count (+399.871)",
-      "pct_highway (+388.948)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5156,10 +4115,10 @@
     "final_premium": 99.00000000000001,
     "top_reasons": [
       "night_pct (+2467.266)",
-      "pct_highway (+-1647.060)",
       "theft_risk_index (+1633.228)",
-      "harsh_lateral_rate_per_100mi (+-798.914)",
-      "pct_arterial (+600.164)"
+      "pct_arterial (+600.164)",
+      "pct_local (+41.145)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5175,13 +4134,7 @@
     "ewma_index": 0.5972101240255048,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1916.024)",
-      "night_pct (+1410.622)",
-      "harsh_lateral_rate_per_100mi (+-721.425)",
-      "trip_count (+560.897)",
-      "pct_arterial (+-419.061)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5196,13 +4149,7 @@
     "ewma_index": 1.548141699406512,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+1727.738)",
-      "pct_highway (+1631.055)",
-      "night_pct (+972.904)",
-      "wet_pct (+795.841)",
-      "pct_arterial (+765.349)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5217,13 +4164,7 @@
     "ewma_index": 0.6098576568037457,
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
-    "top_reasons": [
-      "night_pct (+-897.749)",
-      "pct_highway (+-874.424)",
-      "wet_pct (+-757.665)",
-      "pct_arterial (+-529.839)",
-      "theft_risk_index (+-398.666)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5238,13 +4179,7 @@
     "ewma_index": 0.9355791672585076,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1743.160)",
-      "harsh_lateral_rate_per_100mi (+-868.206)",
-      "night_pct (+853.397)",
-      "pct_arterial (+717.383)",
-      "harsh_brake_rate_per_100mi (+386.237)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5259,13 +4194,7 @@
     "ewma_index": 0.7694114641682919,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1762.912)",
-      "wet_pct (+-1166.276)",
-      "night_pct (+777.996)",
-      "trip_count (+560.897)",
-      "pct_arterial (+552.920)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5282,10 +4211,10 @@
     "final_premium": 99.00000000000001,
     "top_reasons": [
       "night_pct (+2470.326)",
-      "theft_risk_index (+-898.334)",
-      "pct_arterial (+-720.648)",
       "pct_highway (+526.187)",
-      "trip_count (+338.448)"
+      "trip_count (+338.448)",
+      "harsh_lateral_rate_per_100mi (+193.973)",
+      "wet_pct (+125.530)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5301,13 +4230,7 @@
     "ewma_index": 0.9557759756680475,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1657.823)",
-      "wet_pct (+980.448)",
-      "theft_risk_index (+-693.914)",
-      "harsh_accel_rate_per_100mi (+429.536)",
-      "pct_highway (+-344.725)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5322,13 +4245,7 @@
     "ewma_index": 1.790878535276935,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+4610.979)",
-      "pct_highway (+1233.743)",
-      "pct_arterial (+628.732)",
-      "harsh_brake_rate_per_100mi (+393.342)",
-      "harsh_lateral_rate_per_100mi (+372.316)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5346,9 +4263,9 @@
     "top_reasons": [
       "night_pct (+4864.734)",
       "pct_highway (+1210.572)",
-      "pct_arterial (+-440.075)",
       "harsh_lateral_rate_per_100mi (+415.080)",
-      "theft_risk_index (+227.960)"
+      "theft_risk_index (+227.960)",
+      "wet_pct (+193.653)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5364,13 +4281,7 @@
     "ewma_index": 1.0278066808668536,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1741.634)",
-      "theft_risk_index (+1669.688)",
-      "night_pct (+1032.076)",
-      "harsh_lateral_rate_per_100mi (+-534.667)",
-      "miles (+520.261)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5385,13 +4296,7 @@
     "ewma_index": 0.8642661296117928,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+2247.628)",
-      "theft_risk_index (+-1115.170)",
-      "night_pct (+-1033.611)",
-      "wet_pct (+-549.895)",
-      "pct_arterial (+340.677)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5407,11 +4312,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "pct_highway (+-1052.948)",
-      "night_pct (+-946.473)",
-      "wet_pct (+-675.315)",
       "trip_count (+560.897)",
-      "pct_arterial (+422.359)"
+      "pct_arterial (+422.359)",
+      "harsh_accel_rate_per_100mi (+373.929)",
+      "pct_local (+58.892)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5427,13 +4331,7 @@
     "ewma_index": 1.8759653912473984,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+1647.705)",
-      "night_pct (+1529.779)",
-      "pct_arterial (+-857.562)",
-      "pct_highway (+426.977)",
-      "harsh_lateral_rate_per_100mi (+374.327)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5448,13 +4346,7 @@
     "ewma_index": 1.2191957151861532,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "night_pct (+-1057.840)",
-      "pct_arterial (+768.498)",
-      "pct_highway (+-691.222)",
-      "harsh_brake_rate_per_100mi (+576.658)",
-      "harsh_lateral_rate_per_100mi (+563.581)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5471,10 +4363,10 @@
     "final_premium": 111.03050340378364,
     "top_reasons": [
       "night_pct (+1805.287)",
-      "pct_highway (+-1369.210)",
       "harsh_lateral_rate_per_100mi (+592.145)",
-      "pct_arterial (+-459.378)",
-      "theft_risk_index (+334.206)"
+      "theft_risk_index (+334.206)",
+      "harsh_brake_rate_per_100mi (+274.207)",
+      "volatility_jerk_p95 (+12.824)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -5490,13 +4382,7 @@
     "ewma_index": 1.3658888064298575,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+3356.740)",
-      "pct_highway (+-1547.828)",
-      "pct_arterial (+345.135)",
-      "theft_risk_index (+-312.031)",
-      "wet_pct (+-301.269)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5511,13 +4397,7 @@
     "ewma_index": 0.8888593735380155,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "pct_highway (+-1111.085)",
-      "night_pct (+-1049.662)",
-      "theft_risk_index (+-957.514)",
-      "wet_pct (+827.310)",
-      "crash_density_index (+305.828)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5533,11 +4413,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1774.848)",
-      "wet_pct (+-673.390)",
-      "theft_risk_index (+-537.494)",
-      "pct_arterial (+-308.385)",
-      "miles (+305.280)"
+      "miles (+305.280)",
+      "pct_local (+100.820)",
+      "pct_highway (+90.182)",
+      "volatility_jerk_p95 (+10.486)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5553,13 +4432,7 @@
     "ewma_index": 0.6494504016979172,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1700.746)",
-      "wet_pct (+1143.878)",
-      "theft_risk_index (+-617.140)",
-      "harsh_accel_rate_per_100mi (+544.833)",
-      "pct_arterial (+-437.330)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5574,13 +4447,7 @@
     "ewma_index": 0.7901179696202174,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "theft_risk_index (+2102.153)",
-      "night_pct (+-1536.640)",
-      "pct_arterial (+-684.725)",
-      "pct_highway (+-493.593)",
-      "harsh_accel_rate_per_100mi (+385.407)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5598,9 +4465,9 @@
     "top_reasons": [
       "pct_highway (+1943.673)",
       "pct_arterial (+848.489)",
-      "harsh_lateral_rate_per_100mi (+-412.086)",
       "theft_risk_index (+402.634)",
-      "harsh_brake_rate_per_100mi (+390.786)"
+      "harsh_brake_rate_per_100mi (+390.786)",
+      "night_pct (+283.204)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5616,13 +4483,7 @@
     "ewma_index": 0.209647580780579,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1339.975)",
-      "pct_highway (+-1020.147)",
-      "wet_pct (+-966.650)",
-      "theft_risk_index (+-952.734)",
-      "harsh_lateral_rate_per_100mi (+452.207)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5637,13 +4498,7 @@
     "ewma_index": 1.2977210875163665,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+2348.236)",
-      "theft_risk_index (+2204.934)",
-      "pct_arterial (+783.968)",
-      "night_pct (+-511.748)",
-      "harsh_lateral_rate_per_100mi (+469.465)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5661,9 +4516,9 @@
     "top_reasons": [
       "night_pct (+2803.937)",
       "pct_highway (+650.052)",
-      "theft_risk_index (+-470.768)",
       "harsh_brake_rate_per_100mi (+395.149)",
-      "harsh_lateral_rate_per_100mi (+372.316)"
+      "harsh_lateral_rate_per_100mi (+372.316)",
+      "pct_arterial (+341.901)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5679,13 +4534,7 @@
     "ewma_index": 0.6282369182694665,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1408.572)",
-      "theft_risk_index (+-803.139)",
-      "trip_count (+505.587)",
-      "pct_arterial (+-502.579)",
-      "harsh_lateral_rate_per_100mi (+379.703)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5700,13 +4549,7 @@
     "ewma_index": 0.33131844723993154,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1778.324)",
-      "harsh_lateral_rate_per_100mi (+-563.086)",
-      "theft_risk_index (+-356.318)",
-      "pct_arterial (+-340.108)",
-      "miles (+-271.958)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5722,11 +4565,7 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1701.325)",
-      "theft_risk_index (+-905.884)",
-      "pct_arterial (+-597.729)",
-      "harsh_lateral_rate_per_100mi (+-400.607)",
-      "harsh_accel_rate_per_100mi (+-245.283)"
+      "wet_pct (+68.824)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5742,13 +4581,7 @@
     "ewma_index": 0.406772197563018,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1479.010)",
-      "pct_highway (+-664.312)",
-      "pct_arterial (+-602.647)",
-      "harsh_lateral_rate_per_100mi (+558.477)",
-      "theft_risk_index (+-396.172)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5763,13 +4596,7 @@
     "ewma_index": 0.788243424217296,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-788.184)",
-      "pct_arterial (+768.498)",
-      "harsh_brake_rate_per_100mi (+576.658)",
-      "theft_risk_index (+-526.474)",
-      "harsh_lateral_rate_per_100mi (+510.445)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5785,11 +4612,10 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1636.530)",
-      "pct_arterial (+-904.396)",
-      "theft_risk_index (+-326.255)",
       "harsh_lateral_rate_per_100mi (+258.490)",
-      "harsh_accel_rate_per_100mi (+-206.446)"
+      "harsh_brake_rate_per_100mi (+157.578)",
+      "pct_highway (+100.449)",
+      "volatility_jerk_p95 (+5.973)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5805,13 +4631,7 @@
     "ewma_index": 0.8442535534601978,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+1845.331)",
-      "pct_highway (+-1749.430)",
-      "miles (+-271.638)",
-      "pct_arterial (+-258.325)",
-      "wet_pct (+-164.600)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5826,13 +4646,7 @@
     "ewma_index": 1.1772749372755238,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+1494.296)",
-      "wet_pct (+1291.663)",
-      "night_pct (+1246.827)",
-      "theft_risk_index (+-351.240)",
-      "pct_arterial (+-303.467)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5848,11 +4662,11 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-1505.098)",
       "pct_highway (+670.126)",
       "trip_count (+560.897)",
-      "pct_arterial (+-475.663)",
-      "harsh_lateral_rate_per_100mi (+247.669)"
+      "harsh_lateral_rate_per_100mi (+247.669)",
+      "wet_pct (+83.762)",
+      "harsh_accel_rate_per_100mi (+37.822)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5868,13 +4682,7 @@
     "ewma_index": 0.10910119097298344,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-1097.263)",
-      "night_pct (+-1013.944)",
-      "wet_pct (+-668.464)",
-      "theft_risk_index (+-586.705)",
-      "pct_arterial (+556.255)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5889,13 +4697,7 @@
     "ewma_index": 0.42165429618230094,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1380.762)",
-      "theft_risk_index (+-1003.105)",
-      "pct_highway (+-864.854)",
-      "harsh_lateral_rate_per_100mi (+683.654)",
-      "pct_arterial (+486.052)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5911,11 +4713,11 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "night_pct (+-1225.471)",
-      "pct_highway (+-1156.390)",
-      "theft_risk_index (+-934.329)",
-      "harsh_lateral_rate_per_100mi (+-703.631)",
-      "harsh_brake_rate_per_100mi (+-279.011)"
+      "pct_arterial (+161.905)",
+      "wet_pct (+111.311)",
+      "pct_local (+89.591)",
+      "miles (+44.519)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5931,13 +4733,7 @@
     "ewma_index": 0.6716609542558561,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "pct_highway (+-997.957)",
-      "night_pct (+-626.480)",
-      "pct_arterial (+347.426)",
-      "harsh_accel_rate_per_100mi (+331.834)",
-      "harsh_brake_rate_per_100mi (+-279.011)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -5952,13 +4748,7 @@
     "ewma_index": 0.33257447346286506,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1912.723)",
-      "theft_risk_index (+-414.374)",
-      "harsh_lateral_rate_per_100mi (+-411.117)",
-      "pct_arterial (+-357.270)",
-      "pct_highway (+-257.744)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -5976,9 +4766,7 @@
     "top_reasons": [
       "pct_highway (+2456.742)",
       "wet_pct (+1049.903)",
-      "night_pct (+-692.436)",
-      "pct_arterial (+454.917)",
-      "harsh_lateral_rate_per_100mi (+-274.265)"
+      "pct_arterial (+454.917)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -5994,13 +4782,7 @@
     "ewma_index": 0.8322141185554381,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "wet_pct (+1241.787)",
-      "pct_highway (+-1045.661)",
-      "night_pct (+-807.452)",
-      "trip_count (+560.897)",
-      "pct_arterial (+556.255)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6015,13 +4797,7 @@
     "ewma_index": 0.9840753658964242,
     "telematics_factor_capped": 0.9840753658964242,
     "final_premium": 98.40753658964242,
-    "top_reasons": [
-      "pct_highway (+2702.908)",
-      "night_pct (+-790.232)",
-      "pct_arterial (+501.484)",
-      "harsh_lateral_rate_per_100mi (+-323.632)",
-      "theft_risk_index (+-243.555)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6037,11 +4813,9 @@
     "telematics_factor_capped": 0.8856678293067818,
     "final_premium": 88.56678293067817,
     "top_reasons": [
-      "night_pct (+-1257.889)",
       "wet_pct (+1240.169)",
-      "pct_highway (+-1195.222)",
-      "theft_risk_index (+-959.363)",
-      "harsh_lateral_rate_per_100mi (+-369.805)"
+      "pct_arterial (+359.001)",
+      "pct_local (+33.184)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -6057,13 +4831,7 @@
     "ewma_index": 0.21581082547162733,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1020.628)",
-      "pct_highway (+-964.989)",
-      "theft_risk_index (+-567.752)",
-      "pct_arterial (+-356.373)",
-      "miles (+-263.197)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6078,13 +4846,7 @@
     "ewma_index": 0.7544036453835725,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+1501.835)",
-      "theft_risk_index (+-1009.093)",
-      "pct_highway (+962.833)",
-      "pct_arterial (+-931.549)",
-      "harsh_lateral_rate_per_100mi (+374.327)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -6100,11 +4862,11 @@
     "telematics_factor_capped": 0.891636290939937,
     "final_premium": 89.1636290939937,
     "top_reasons": [
-      "pct_highway (+-1466.036)",
       "theft_risk_index (+1373.094)",
       "night_pct (+1121.509)",
-      "wet_pct (+-956.744)",
-      "pct_arterial (+-503.373)"
+      "harsh_lateral_rate_per_100mi (+493.011)",
+      "harsh_brake_rate_per_100mi (+246.526)",
+      "pct_local (+44.038)"
     ],
     "is_first_month": false,
     "monthly_capped": false,
@@ -6120,13 +4882,7 @@
     "ewma_index": 0.30088579280983846,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1770.478)",
-      "theft_risk_index (+-835.060)",
-      "harsh_lateral_rate_per_100mi (+-486.111)",
-      "harsh_accel_rate_per_100mi (+-245.283)",
-      "pct_highway (+185.967)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6141,13 +4897,7 @@
     "ewma_index": 0.16700982866175146,
     "telematics_factor_capped": 0.9,
     "final_premium": 90.0,
-    "top_reasons": [
-      "night_pct (+-1244.783)",
-      "theft_risk_index (+-1075.220)",
-      "wet_pct (+-1037.476)",
-      "pct_highway (+-894.073)",
-      "miles (+283.011)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -6163,11 +4913,11 @@
     "telematics_factor_capped": 0.81,
     "final_premium": 81.0,
     "top_reasons": [
-      "pct_highway (+-1021.684)",
-      "night_pct (+-805.697)",
-      "harsh_lateral_rate_per_100mi (+-798.914)",
       "trip_count (+505.587)",
-      "theft_risk_index (+-484.819)"
+      "pct_arterial (+359.159)",
+      "harsh_accel_rate_per_100mi (+43.425)",
+      "pct_local (+42.031)",
+      "volatility_jerk_p95 (+38.043)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -6183,13 +4933,7 @@
     "ewma_index": 0.2764895039834875,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "night_pct (+-1755.221)",
-      "wet_pct (+-972.770)",
-      "theft_risk_index (+-529.881)",
-      "pct_arterial (+-457.064)",
-      "miles (+305.280)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6204,13 +4948,7 @@
     "ewma_index": 1.1783184384921355,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "theft_risk_index (+2499.812)",
-      "wet_pct (+966.844)",
-      "pct_arterial (+853.263)",
-      "night_pct (+-828.747)",
-      "pct_highway (+-672.173)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -6227,10 +4965,10 @@
     "final_premium": 121.00000000000001,
     "top_reasons": [
       "pct_highway (+2397.047)",
-      "theft_risk_index (+-990.113)",
-      "night_pct (+-875.459)",
       "pct_arterial (+559.042)",
-      "harsh_brake_rate_per_100mi (+488.093)"
+      "harsh_brake_rate_per_100mi (+488.093)",
+      "wet_pct (+449.343)",
+      "harsh_lateral_rate_per_100mi (+68.893)"
     ],
     "is_first_month": false,
     "monthly_capped": true,
@@ -6246,13 +4984,7 @@
     "ewma_index": 1.1352112580961864,
     "telematics_factor_capped": 1.0,
     "final_premium": 100.0,
-    "top_reasons": [
-      "theft_risk_index (+2112.598)",
-      "night_pct (+-1599.330)",
-      "pct_arterial (+-736.715)",
-      "miles (+411.882)",
-      "harsh_lateral_rate_per_100mi (+324.063)"
-    ],
+    "top_reasons": [],
     "is_first_month": true,
     "monthly_capped": false,
     "quarterly_capped": false
@@ -6267,13 +4999,7 @@
     "ewma_index": 1.1649515272537698,
     "telematics_factor_capped": 1.1,
     "final_premium": 110.00000000000001,
-    "top_reasons": [
-      "pct_highway (+1767.810)",
-      "night_pct (+1076.297)",
-      "harsh_lateral_rate_per_100mi (+-490.489)",
-      "theft_risk_index (+-470.815)",
-      "pct_arterial (+371.380)"
-    ],
+    "top_reasons": [],
     "is_first_month": false,
     "monthly_capped": true,
     "quarterly_capped": false
@@ -6289,11 +5015,10 @@
     "telematics_factor_capped": 0.9900000000000001,
     "final_premium": 99.00000000000001,
     "top_reasons": [
-      "night_pct (+-969.559)",
-      "pct_highway (+-756.268)",
-      "pct_arterial (+-458.501)",
-      "theft_risk_index (+-301.092)",
-      "wet_pct (+275.705)"
+      "wet_pct (+275.705)",
+      "miles (+144.453)",
+      "pct_local (+127.329)",
+      "harsh_lateral_rate_per_100mi (+111.048)"
     ],
     "is_first_month": false,
     "monthly_capped": true,

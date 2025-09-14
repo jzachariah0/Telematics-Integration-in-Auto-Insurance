@@ -1,14 +1,9 @@
-#!/usr/bin/env python3def main():
+#!/usr/bin/env python3
+"""
+Pricing engine for InsurityAI project.
 
-"""    print("Pricing engine running...")
-
-Pricing engine for InsurityAI project.    print("✅ Pricing complete (placeholder).")
-
-
-
-Converts model predictions into monthly premiums with risk-based adjustments,if __name__ == "__main__":
-
-smoothing, and business constraints.    main()
+Converts model predictions into monthly premiums with risk-based adjustments,
+smoothing, and business constraints.
 """
 
 import argparse

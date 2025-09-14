@@ -5,8 +5,8 @@ Model:                            GLM   Df Residuals:                      184
 Model Family:                 Tweedie   Df Model:                           15
 Link Function:                    log   Scale:                          396.81
 Method:                          IRLS   Log-Likelihood:                -2234.5
-Date:                Fri, 12 Sep 2025   Deviance:                       56054.
-Time:                        13:50:16   Pearson chi2:                 7.30e+04
+Date:                Sun, 14 Sep 2025   Deviance:                       56054.
+Time:                        15:53:22   Pearson chi2:                 7.30e+04
 No. Iterations:                    73   Pseudo R-squ. (CS):            0.06554
 Covariance Type:            nonrobust                                         
 ================================================================================================

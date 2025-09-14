@@ -1,15 +1,9 @@
-#!/usr/bin/env python3def main():
+#!/usr/bin/env python3
+"""
+Feature engineering pipeline for InsurityAI project.
 
-"""    print("Feature building started...")
-
-Feature engineering pipeline for InsurityAI project.    print("✅ Features built (placeholder).")
-
-
-
-Reads raw trip data and creates monthly per-user features for risk modeling,if __name__ == "__main__":
-
-including synthetic ground-truth targets for claims modeling.    main()
-
+Reads raw trip data and creates monthly per-user features for risk modeling,
+including synthetic ground-truth targets for claims modeling.
 """
 
 import argparse

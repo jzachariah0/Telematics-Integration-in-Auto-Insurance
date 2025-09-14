@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Any
 
 import lightgbm as lgb
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
