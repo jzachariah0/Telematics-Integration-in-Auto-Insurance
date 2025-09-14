@@ -6,25 +6,25 @@ This report compares the performance of GLM (Tweedie) and LightGBM models for pr
 ## Model Metrics
 
 ### GLM (Tweedie) Results
-- **MAE**: 5615.24
-- **MAPE**: 35864671689632.56%
-- **R²**: -0.2431
-- **Gini**: 0.2625
+- **MAE**: 6533.90
+- **MAPE**: 27494356971126.89%
+- **R²**: 0.0279
+- **Gini**: 0.3019
 
 ### LightGBM Results  
-- **MAE**: 5206.94
-- **MAPE**: 33571778377150.97%
-- **R²**: -0.0208
-- **Gini**: 0.2409
+- **MAE**: 6908.88
+- **MAPE**: 31905770259812.51%
+- **R²**: 0.0313
+- **Gini**: 0.3059
 
 ## Model Comparison
 
 | Metric | GLM | LightGBM | Better Model |
 |--------|-----|----------|--------------|
-| MAE | 5615.24 | 5206.94 | LightGBM |
-| MAPE | 35864671689632.56% | 33571778377150.97% | LightGBM |
-| R² | -0.2431 | -0.0208 | LightGBM |
-| Gini | 0.2625 | 0.2409 | GLM |
+| MAE | 6533.90 | 6908.88 | GLM |
+| MAPE | 27494356971126.89% | 31905770259812.51% | GLM |
+| R² | 0.0279 | 0.0313 | LightGBM |
+| Gini | 0.3019 | 0.3059 | LightGBM |
 
 ## Key Findings
 

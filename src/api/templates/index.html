@@ -3,191 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InsurityAI Pricing Dashboard</title>
+    <title>InsurityAI - Telematics Dashboard</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
+            font-family: Arial, sans-serif;
+            margin: 20px;
             background-color: #f5f5f5;
         }
+        
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        .controls {
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #ecf0f1;
-            border-radius: 8px;
-        }
+        
         .form-group {
             margin-bottom: 15px;
         }
+        
         label {
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
-            color: #34495e;
         }
-        select {
-            width: 100%;
-            max-width: 300px;
-            padding: 10px;
-            border: 2px solid #bdc3c7;
-            border-radius: 5px;
-            font-size: 16px;
+        
+        select, input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 200px;
         }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
         .metrics-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
-            margin-bottom: 30px;
+            margin: 20px 0;
         }
+        
         .metric-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .metric-card h3 {
-            margin: 0 0 10px 0;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            opacity: 0.9;
-        }
-        .metric-value {
-            font-size: 32px;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        .metric-comparison {
-            font-size: 14px;
-            opacity: 0.9;
-        }
-        .sections {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-        }
-        .section {
             background: white;
-            border: 1px solid #e0e0e0;
+            padding: 15px;
             border-radius: 8px;
-            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
         }
-        .section-header {
-            background: #34495e;
-            color: white;
-            padding: 15px 20px;
-            margin: 0;
-            font-size: 18px;
-        }
-        .section-content {
-            padding: 20px;
-        }
-        .reasons-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .reasons-table th,
-        .reasons-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        .reasons-table th {
-            background: #f8f9fa;
+        
+        .metric-value {
+            font-size: 2em;
             font-weight: bold;
             color: #2c3e50;
         }
-        .reasons-table tr:hover {
-            background: #f8f9fa;
-        }
-        .chart-container {
-            text-align: center;
-        }
-        .chart-container img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
-        }
-        .no-data {
-            text-align: center;
+        
+        .metric-label {
             color: #7f8c8d;
-            font-style: italic;
-            padding: 40px;
+            font-size: 0.9em;
         }
-        .error-message {
-            background: #e74c3c;
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
+        
+        .chart-container {
+            background: white;
+            padding: 20px;
             margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             text-align: center;
         }
-        .success-indicator {
-            color: #27ae60;
+        
+        .risk-factors {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .risk-factor {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #ecf0f1;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .error {
+            color: red;
+            background-color: #ffe6e6;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f8f9fa;
             font-weight: bold;
         }
-        .warning-indicator {
-            color: #f39c12;
-            font-weight: bold;
+        
+        tr:hover {
+            background-color: #f5f5f5;
         }
-        .risk-indicator {
-            color: #e74c3c;
-            font-weight: bold;
+        
+        /* New styles for expandable technical details */
+        .risk-factor-row {
+            cursor: pointer;
         }
-        @media (max-width: 768px) {
-            .sections {
-                grid-template-columns: 1fr;
-            }
-            .metrics-grid {
-                grid-template-columns: 1fr;
-            }
+        
+        .plain-text {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .technical-toggle {
+            display: inline-block;
+            margin-left: 8px;
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            text-align: center;
+            font-size: 12px;
+            cursor: pointer;
+            line-height: 18px;
+        }
+        
+        .technical-toggle:hover {
+            background: #2980b9;
+        }
+        
+        .technical-details {
+            display: none;
+            margin-top: 8px;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #6c757d;
+        }
+        
+        .technical-details.show {
+            display: block;
+        }
+        
+        .detail-row {
+            margin: 4px 0;
+        }
+        
+        .detail-label {
+            font-weight: 600;
+            display: inline-block;
+            min-width: 120px;
         }
     </style>
     <script>
         async function loadUserData() {
             const userSelect = document.getElementById('userSelect');
-            const monthSelect = document.getElementById('monthSelect');
+            
+            userSelect.innerHTML = '<option value="">Loading users...</option>';
             
             try {
                 const response = await fetch('/api/pricing');
                 const data = await response.json();
                 
-                // Populate user dropdown
                 const users = [...new Set(data.map(item => item.user_id))].sort();
                 userSelect.innerHTML = '<option value="">Select a user...</option>';
                 users.forEach(user => {
                     const option = document.createElement('option');
                     option.value = user;
-                    option.textContent = `User ${user}`;
+                    option.textContent = user;
                     userSelect.appendChild(option);
                 });
                 
-                // Store data globally for filtering
                 window.pricingData = data;
                 
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('content').innerHTML = 
-                    '<div class="error-message">Error loading pricing data. Please ensure the server is running and data files exist.</div>';
+                    '<div class="error">Unable to load pricing data. Please check that the server is running.</div>';
             }
         }
         
@@ -202,10 +239,8 @@
                 return;
             }
             
-            // Filter data for selected user
             const userData = window.pricingData.filter(item => item.user_id === selectedUser);
             
-            // Populate month dropdown
             monthSelect.innerHTML = '<option value="">Select month...</option>';
             userData.forEach(item => {
                 const option = document.createElement('option');
@@ -214,10 +249,11 @@
                 monthSelect.appendChild(option);
             });
             
-            // If only one month, auto-select it
             if (userData.length === 1) {
                 monthSelect.value = userData[0].month;
                 onMonthChange();
+            } else {
+                clearDashboard();
             }
         }
         
@@ -243,49 +279,217 @@
         }
         
         function updateDashboard(data) {
-            // Update metrics cards
             document.getElementById('riskIndex').textContent = data.risk_index.toFixed(3);
             document.getElementById('telematicsFactorCapped').textContent = data.telematics_factor_capped.toFixed(3);
             document.getElementById('finalPremium').textContent = `$${data.final_premium.toFixed(2)}`;
             document.getElementById('basePremium').textContent = `$${data.base_premium.toFixed(2)}`;
+            document.getElementById('ewmaIndex').textContent = data.ewma_index ? data.ewma_index.toFixed(3) : '---';
             
-            // Update risk indicator colors
-            const riskCard = document.querySelector('.metric-card:nth-child(1)');
-            const factorCard = document.querySelector('.metric-card:nth-child(2)');
-            
-            if (data.risk_index > 1.2) {
-                riskCard.style.background = 'linear-gradient(135deg, #e74c3c 0%, #c0392b 100%)';
-            } else if (data.risk_index > 1.0) {
-                riskCard.style.background = 'linear-gradient(135deg, #f39c12 0%, #e67e22 100%)';
-            } else {
-                riskCard.style.background = 'linear-gradient(135deg, #27ae60 0%, #229954 100%)';
-            }
-            
-            // Update reason codes table
             const reasonsBody = document.getElementById('reasonsTableBody');
             reasonsBody.innerHTML = '';
             
             if (data.top_reasons && data.top_reasons.length > 0) {
+                // Comprehensive feature mapping - includes all possible variations (case-insensitive)
+                const featureMapping = {
+                    // Night driving variations
+                    'night_pct': { plain: 'You drive a lot at night, which increases risk due to reduced visibility', technical: 'Percentage of driving during nighttime hours' },
+                    'night pct': { plain: 'You drive a lot at night, which increases risk due to reduced visibility', technical: 'Percentage of driving during nighttime hours' },
+                    'nightpct': { plain: 'You drive a lot at night, which increases risk due to reduced visibility', technical: 'Percentage of driving during nighttime hours' },
+                    
+                    // Highway driving variations
+                    'pct_highway': { plain: 'Most of your driving is on highways, which reduces risk compared to city traffic', technical: 'Percentage of miles driven on highways' },
+                    'pct highway': { plain: 'Most of your driving is on highways, which reduces risk compared to city traffic', technical: 'Percentage of miles driven on highways' },
+                    'pcthighway': { plain: 'Most of your driving is on highways, which reduces risk compared to city traffic', technical: 'Percentage of miles driven on highways' },
+                    
+                    // Wet weather variations
+                    'wet_pct': { plain: 'You often drive in wet weather, which increases risk of accidents', technical: 'Percentage of driving in wet weather conditions' },
+                    'wet pct': { plain: 'You often drive in wet weather, which increases risk of accidents', technical: 'Percentage of driving in wet weather conditions' },
+                    'wetpct': { plain: 'You often drive in wet weather, which increases risk of accidents', technical: 'Percentage of driving in wet weather conditions' },
+                    
+                    // Theft risk variations
+                    'theft_risk_index': { plain: 'You often drive in higher-crime areas, which increases theft risk', technical: 'External theft risk index based on geographic area' },
+                    'theft risk index': { plain: 'You often drive in higher-crime areas, which increases theft risk', technical: 'External theft risk index based on geographic area' },
+                    'theftriskindex': { plain: 'You often drive in higher-crime areas, which increases theft risk', technical: 'External theft risk index based on geographic area' },
+                    
+                    // Crash risk variations
+                    'crash_density_index': { plain: 'You drive in areas with higher crash rates, which increases your exposure to risk', technical: 'External crash risk index based on road class and location' },
+                    'crash density index': { plain: 'You drive in areas with higher crash rates, which increases your exposure to risk', technical: 'External crash risk index based on road class and location' },
+                    'crashdensityindex': { plain: 'You drive in areas with higher crash rates, which increases your exposure to risk', technical: 'External crash risk index based on road class and location' },
+                    
+                    // Harsh lateral variations
+                    'harsh_lateral_rate_per_100mi': { plain: 'You make sharp turns or lane changes often, which increases risk', technical: 'Rate of harsh lateral movement events per 100 miles' },
+                    'harsh lateral rate per 100mi': { plain: 'You make sharp turns or lane changes often, which increases risk', technical: 'Rate of harsh lateral movement events per 100 miles' },
+                    'harshlateralrateper100mi': { plain: 'You make sharp turns or lane changes often, which increases risk', technical: 'Rate of harsh lateral movement events per 100 miles' },
+                    
+                    // Arterial roads variations
+                    'pct_arterial': { plain: 'You drive frequently on busy arterial roads with traffic lights and intersections', technical: 'Percentage of miles driven on arterial roads' },
+                    'pct arterial': { plain: 'You drive frequently on busy arterial roads with traffic lights and intersections', technical: 'Percentage of miles driven on arterial roads' },
+                    'pctarterial': { plain: 'You drive frequently on busy arterial roads with traffic lights and intersections', technical: 'Percentage of miles driven on arterial roads' },
+                    
+                    // Miles variations
+                    'miles': { plain: 'Your total driving distance affects your exposure to potential accidents', technical: 'Total miles driven in the month' },
+                    
+                    // Trip count variations
+                    'trip_count': { plain: 'You take many short trips, which can be riskier than fewer long trips', technical: 'Total number of trips taken in the month' },
+                    'trip count': { plain: 'You take many short trips, which can be riskier than fewer long trips', technical: 'Total number of trips taken in the month' },
+                    'tripcount': { plain: 'You take many short trips, which can be riskier than fewer long trips', technical: 'Total number of trips taken in the month' },
+                    
+                    // Harsh acceleration variations
+                    'harsh_accel_rate_per_100mi': { plain: 'You accelerate aggressively often, which increases accident risk', technical: 'Rate of harsh acceleration events per 100 miles' },
+                    'harsh accel rate per 100mi': { plain: 'You accelerate aggressively often, which increases accident risk', technical: 'Rate of harsh acceleration events per 100 miles' },
+                    'harshaccelrateper100mi': { plain: 'You accelerate aggressively often, which increases accident risk', technical: 'Rate of harsh acceleration events per 100 miles' },
+                    
+                    // Harsh braking variations
+                    'harsh_brake_rate_per_100mi': { plain: 'You brake hard frequently, which may indicate following too closely or distracted driving', technical: 'Rate of harsh braking events per 100 miles' },
+                    'harsh brake rate per 100mi': { plain: 'You brake hard frequently, which may indicate following too closely or distracted driving', technical: 'Rate of harsh braking events per 100 miles' },
+                    'harshbrakerateper100mi': { plain: 'You brake hard frequently, which may indicate following too closely or distracted driving', technical: 'Rate of harsh braking events per 100 miles' },
+                    
+                    // Local roads variations
+                    'pct_local': { plain: 'You do more neighborhood driving with pedestrians and stop signs, which affects risk', technical: 'Percentage of miles driven on local roads' },
+                    'pct local': { plain: 'You do more neighborhood driving with pedestrians and stop signs, which affects risk', technical: 'Percentage of miles driven on local roads' },
+                    'pctlocal': { plain: 'You do more neighborhood driving with pedestrians and stop signs, which affects risk', technical: 'Percentage of miles driven on local roads' },
+                    
+                    // Add speeding variations
+                    'speeding_pct_over_5': { plain: 'You drive over the speed limit regularly, which increases accident risk', technical: 'Percentage of time speeding >5 mph over limit' },
+                    'speeding pct over 5': { plain: 'You drive over the speed limit regularly, which increases accident risk', technical: 'Percentage of time speeding >5 mph over limit' },
+                    'speedingpctover5': { plain: 'You drive over the speed limit regularly, which increases accident risk', technical: 'Percentage of time speeding >5 mph over limit' },
+                    
+                    'speeding_pct_over_10': { plain: 'You drive well over the speed limit often, which significantly increases risk', technical: 'Percentage of time speeding >10 mph over limit' },
+                    'speeding pct over 10': { plain: 'You drive well over the speed limit often, which significantly increases risk', technical: 'Percentage of time speeding >10 mph over limit' },
+                    'speedingpctover10': { plain: 'You drive well over the speed limit often, which significantly increases risk', technical: 'Percentage of time speeding >10 mph over limit' },
+                    
+                    'volatility_jerk_p95': { plain: 'Your driving style is jerky with sudden speed changes, which increases risk', technical: '95th percentile of jerk (rate of acceleration change)' },
+                    'volatility jerk p95': { plain: 'Your driving style is jerky with sudden speed changes, which increases risk', technical: '95th percentile of jerk (rate of acceleration change)' },
+                    'volatilityjerkp95': { plain: 'Your driving style is jerky with sudden speed changes, which increases risk', technical: '95th percentile of jerk (rate of acceleration change)' }
+                };
+
                 data.top_reasons.slice(0, 5).forEach((reason, index) => {
                     const row = document.createElement('tr');
+                    
+                    // Parse the reason string like "night_pct (+2453.276)" or "pct_highway (+-1560.638)"
+                    let featureName, shapValue, increasesRisk;
+                    
+                    if (typeof reason === 'string') {
+                        // Extract feature name and SHAP value from string
+                        // Handle both (+123.456) and (+-123.456) formats
+                        const match = reason.match(/^([^(]+)\s*\(([+-]?\d+\.?\d*)\)/);
+                        if (match) {
+                            featureName = match[1].trim();
+                            let shapStr = match[2];
+                            
+                            // Handle the weird "+-" prefix which actually means negative
+                            if (shapStr.startsWith('+-')) {
+                                shapValue = -parseFloat(shapStr.substring(2));
+                            } else {
+                                shapValue = parseFloat(shapStr);
+                            }
+                            
+                            increasesRisk = shapValue > 0;
+                        } else {
+                            featureName = reason;
+                            shapValue = 0;
+                            increasesRisk = false;
+                        }
+                    } else {
+                        // Handle object format if data structure changes
+                        featureName = reason.feature || reason;
+                        shapValue = reason.shap_value || 0;
+                        increasesRisk = shapValue > 0;
+                    }
+                    
+                    console.log('Parsed feature:', featureName, 'SHAP:', shapValue, 'Increases Risk:', increasesRisk);
+                    console.log('Feature name type:', typeof featureName, 'Length:', featureName.length, 'Raw:', JSON.stringify(featureName));
+                    
+                    // Create bulletproof feature mapping lookup with normalization
+                    function getFeatureMapping(rawFeatureName) {
+                        // Try exact match first
+                        if (featureMapping[rawFeatureName]) {
+                            console.log('Exact match found for:', rawFeatureName);
+                            return featureMapping[rawFeatureName];
+                        }
+                        
+                        // Normalize the feature name - remove extra spaces, convert to lowercase, try multiple variations
+                        const normalized = rawFeatureName.toLowerCase().trim();
+                        console.log('Normalized feature name:', normalized);
+                        
+                        // Try normalized version
+                        if (featureMapping[normalized]) {
+                            console.log('Normalized match found for:', normalized);
+                            return featureMapping[normalized];
+                        }
+                        
+                        // Try with underscores converted to spaces
+                        const withSpaces = normalized.replace(/_/g, ' ');
+                        if (featureMapping[withSpaces]) {
+                            console.log('Spaces version match found for:', withSpaces);
+                            return featureMapping[withSpaces];
+                        }
+                        
+                        // Try with spaces converted to underscores
+                        const withUnderscores = normalized.replace(/\s+/g, '_');
+                        if (featureMapping[withUnderscores]) {
+                            console.log('Underscores version match found for:', withUnderscores);
+                            return featureMapping[withUnderscores];
+                        }
+                        
+                        // Log all available keys for debugging
+                        console.warn('NO MAPPING FOUND for feature:', rawFeatureName);
+                        console.warn('Tried variations:', [rawFeatureName, normalized, withSpaces, withUnderscores]);
+                        console.warn('Available mapping keys:', Object.keys(featureMapping));
+                        return null;
+                    }
+                    
+                    // Get feature mapping using bulletproof lookup
+                    const mapping = getFeatureMapping(featureName);
+                    
+                    const plainText = mapping ? mapping.plain : `Driving behavior: ${featureName.replace(/_/g, ' ')}`;
+                    const technicalDesc = mapping ? mapping.technical : featureName;
+                    
+                    // For feature value, we'll show as N/A since it's not in the current data structure
+                    const featureValue = 'N/A';
+                    
+                    // Color-coded impact without emojis for professional appearance
+                    const impactText = increasesRisk ? 'Increases Risk' : 'Decreases Risk';
+                    const impactColor = increasesRisk ? '#e74c3c' : '#27ae60';
+                    const impactBg = increasesRisk ? '#fdf2f2' : '#f0f9f0';
+                    
+                    row.className = 'risk-factor-row';
                     row.innerHTML = `
-                        <td>${index + 1}</td>
-                        <td>${reason}</td>
+                        <td style="text-align: center; font-weight: 600;">${index + 1}</td>
+                        <td>
+                            <div class="plain-text">
+                                ${plainText}
+                                <span class="technical-toggle" onclick="toggleTechnical(${index})" title="Click for technical details">ⓘ</span>
+                            </div>
+                            <div class="technical-details" id="technical-${index}">
+                                <div class="detail-row">
+                                    <span class="detail-label">Technical Name:</span> ${featureName}
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Feature Value:</span> ${featureValue}
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">SHAP Contribution:</span> ${shapValue > 0 ? '+' : ''}${shapValue.toFixed(3)}
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Description:</span> ${technicalDesc}
+                                </div>
+                            </div>
+                        </td>
+                        <td style="color: ${impactColor}; font-weight: 600; text-align: center; background-color: ${impactBg}; padding: 8px; border-radius: 4px;">
+                            ${impactText}
+                        </td>
                     `;
                     reasonsBody.appendChild(row);
                 });
             } else {
-                reasonsBody.innerHTML = '<tr><td colspan="2" class="no-data">No reason codes available</td></tr>';
+                reasonsBody.innerHTML = '<tr><td colspan="3">No risk factor analysis available</td></tr>';
             }
-            
-            // Show capping indicators
-            const indicators = [];
-            if (data.is_first_month) indicators.push('<span class="success-indicator">First Month (Grace Period)</span>');
-            if (data.monthly_capped) indicators.push('<span class="warning-indicator">Monthly Capped</span>');
-            if (data.quarterly_capped) indicators.push('<span class="risk-indicator">Quarterly Capped</span>');
-            
-            document.getElementById('cappingIndicators').innerHTML = 
-                indicators.length > 0 ? indicators.join(' • ') : 'No caps applied';
+        }
+        
+        function toggleTechnical(index) {
+            const details = document.getElementById(`technical-${index}`);
+            details.classList.toggle('show');
         }
         
         async function updateChart(userId) {
@@ -313,21 +517,26 @@
             document.getElementById('telematicsFactorCapped').textContent = '---';
             document.getElementById('finalPremium').textContent = '---';
             document.getElementById('basePremium').textContent = '---';
-            document.getElementById('reasonsTableBody').innerHTML = '<tr><td colspan="2" class="no-data">Select a user and month</td></tr>';
-            document.getElementById('cappingIndicators').innerHTML = '---';
+            
+            const reasonsBody = document.getElementById('reasonsTableBody');
+            reasonsBody.innerHTML = '<tr><td colspan="3">Select a user and month to view analysis</td></tr>';
+            
             document.getElementById('chartImage').style.display = 'none';
             document.getElementById('noChartMessage').style.display = 'block';
         }
         
-        // Load data when page loads
         document.addEventListener('DOMContentLoaded', loadUserData);
     </script>
 </head>
 <body>
+    <div class="header">
+        <h1>InsurityAI - Telematics Dashboard</h1>
+        <p>Driver Risk Analysis and Premium Calculation</p>
+    </div>
+    
     <div class="container">
-        <h1>🚗 InsurityAI Pricing Dashboard</h1>
-        
-        <div class="controls">
+        <div class="card">
+            <h2>User Selection</h2>
             <div class="form-group">
                 <label for="userSelect">Select User:</label>
                 <select id="userSelect" onchange="onUserChange()">
@@ -345,55 +554,85 @@
         <div id="content">
             <div class="metrics-grid">
                 <div class="metric-card">
-                    <h3>Risk Index</h3>
                     <div class="metric-value" id="riskIndex">---</div>
-                    <div class="metric-comparison">vs Book Average</div>
+                    <div class="metric-label">
+                        Risk Index
+                        <span class="tooltip-icon" title="Your driving risk compared to average drivers. 1.0 = average risk, >1.0 = higher risk, <1.0 = lower risk" style="cursor: help; color: #3498db; margin-left: 5px;">ⓘ</span>
+                    </div>
                 </div>
                 <div class="metric-card">
-                    <h3>Telematics Factor</h3>
                     <div class="metric-value" id="telematicsFactorCapped">---</div>
-                    <div class="metric-comparison">After Caps & Smoothing</div>
+                    <div class="metric-label">
+                        Telematics Factor
+                        <span class="tooltip-icon" title="Premium adjustment based on your driving data. Capped to protect consumers from extreme increases. 1.0 = no change from base premium" style="cursor: help; color: #3498db; margin-left: 5px;">ⓘ</span>
+                    </div>
                 </div>
                 <div class="metric-card">
-                    <h3>Final Premium</h3>
                     <div class="metric-value" id="finalPremium">---</div>
-                    <div class="metric-comparison">Base: <span id="basePremium">---</span></div>
+                    <div class="metric-label">
+                        Final Premium
+                        <span class="tooltip-icon" title="Your monthly insurance cost: Base Premium × Telematics Factor. Protected by caps to ensure fair pricing" style="cursor: help; color: #3498db; margin-left: 5px;">ⓘ</span>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="basePremium">---</div>
+                    <div class="metric-label">
+                        Base Premium
+                        <span class="tooltip-icon" title="Starting premium rate before any driving behavior adjustments. Same for all drivers in your coverage category" style="cursor: help; color: #3498db; margin-left: 5px;">ⓘ</span>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="ewmaIndex">---</div>
+                    <div class="metric-label">
+                        EWMA Smoothed
+                        <span class="tooltip-icon" title="Exponentially Weighted Moving Average - Your risk smoothed over time to prevent premium volatility. Higher numbers mean higher risk." style="cursor: help; color: #3498db; margin-left: 5px;">ⓘ</span>
+                    </div>
                 </div>
             </div>
             
-            <div style="text-align: center; margin-bottom: 20px; padding: 10px; background: #f8f9fa; border-radius: 5px;">
-                <strong>Status:</strong> <span id="cappingIndicators">---</span>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #3498db;">
+                <h3>How Your Premium is Calculated</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 15px;">
+                    <div>
+                        <p><strong>Step 1:</strong> Base Premium ($100) - Everyone starts here</p>
+                        <p><strong>Step 2:</strong> Risk Index - Your driving compared to average (1.0 = average)</p>
+                        <p><strong>Step 3:</strong> EWMA Smoothed - Risk smoothed over time to prevent wild swings</p>
+                        <p><strong>Step 4:</strong> Telematics Factor - Final adjustment (capped for protection)</p>
+                        <p><strong>Final:</strong> Base Premium × Telematics Factor = Your Premium</p>
+                    </div>
+                    <div>
+                        <p><strong>Consumer Protection:</strong> Even if your risk is very high (like 2.679), the telematics factor is capped at reasonable levels to prevent unfair pricing.</p>
+                        <p><strong>Risk Index Scale:</strong></p>
+                        <ul style="margin: 5px 0; padding-left: 20px;">
+                            <li><strong>0.5-1.0:</strong> Better than average driver</li>
+                            <li><strong>1.0-1.5:</strong> Average to slightly risky</li>
+                            <li><strong>1.5-2.0:</strong> High risk driver</li>
+                            <li><strong>2.0+:</strong> Very high risk driver</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             
-            <div class="sections">
-                <div class="section">
-                    <h2 class="section-header">Top Risk Factors</h2>
-                    <div class="section-content">
-                        <table class="reasons-table">
-                            <thead>
-                                <tr>
-                                    <th>Rank</th>
-                                    <th>Factor</th>
-                                </tr>
-                            </thead>
-                            <tbody id="reasonsTableBody">
-                                <tr><td colspan="2" class="no-data">Select a user and month</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                
-                <div class="section">
-                    <h2 class="section-header">Risk Trend</h2>
-                    <div class="section-content">
-                        <div class="chart-container">
-                            <img id="chartImage" style="display: none;" alt="Risk Index Chart">
-                            <div id="noChartMessage" class="no-data">
-                                Select a user to view risk trend
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="risk-factors">
+                <h3>Top Risk Factors</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Risk Factor Explanation</th>
+                            <th>Impact</th>
+                        </tr>
+                    </thead>
+                    <tbody id="reasonsTableBody">
+                        <tr><td colspan="3">Select a user and month to view analysis</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Risk Trend Chart</h3>
+                <img id="chartImage" style="display: none; max-width: 100%;" alt="Risk Analysis Chart">
+                <div id="noChartMessage">Select a user to generate chart</div>
             </div>
         </div>
     </div>

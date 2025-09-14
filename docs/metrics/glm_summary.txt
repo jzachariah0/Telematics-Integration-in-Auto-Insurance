@@ -1,30 +1,32 @@
                  Generalized Linear Model Regression Results                  
 ==============================================================================
 Dep. Variable:              loss_cost   No. Observations:                  200
-Model:                            GLM   Df Residuals:                      186
-Model Family:                 Tweedie   Df Model:                           13
-Link Function:                    log   Scale:                          402.41
-Method:                          IRLS   Log-Likelihood:                -2230.9
-Date:                Fri, 12 Sep 2025   Deviance:                       54957.
-Time:                        11:12:52   Pearson chi2:                 7.48e+04
-No. Iterations:                    33   Pseudo R-squ. (CS):            0.05470
+Model:                            GLM   Df Residuals:                      184
+Model Family:                 Tweedie   Df Model:                           15
+Link Function:                    log   Scale:                          396.81
+Method:                          IRLS   Log-Likelihood:                -2234.5
+Date:                Fri, 12 Sep 2025   Deviance:                       56054.
+Time:                        13:50:16   Pearson chi2:                 7.30e+04
+No. Iterations:                    73   Pseudo R-squ. (CS):            0.06554
 Covariance Type:            nonrobust                                         
 ================================================================================================
                                    coef    std err          z      P>|z|      [0.025      0.975]
 ------------------------------------------------------------------------------------------------
-const                            5.8147      0.914      6.364      0.000       4.024       7.606
-miles                            0.0045      0.003      1.628      0.104      -0.001       0.010
-trip_count                      -0.0492      0.067     -0.731      0.465      -0.181       0.083
-harsh_brake_rate_per_100mi      -0.0413      0.047     -0.887      0.375      -0.133       0.050
-harsh_accel_rate_per_100mi       0.0637      0.056      1.134      0.257      -0.046       0.174
-harsh_lateral_rate_per_100mi    -0.0683      0.065     -1.048      0.295      -0.196       0.059
-speeding_pct_over_5            -14.8104     16.838     -0.880      0.379     -47.812      18.191
-speeding_pct_over_10          -325.9349   2077.320     -0.157      0.875   -4397.407    3745.537
-speeding_pct_over_15           363.4563   2077.513      0.175      0.861   -3708.395    4435.307
-night_pct                       -2.5367      2.363     -1.073      0.283      -7.169       2.095
-wet_pct                          1.0111      2.408      0.420      0.675      -3.708       5.731
-volatility_jerk_p95              0.2453      0.220      1.116      0.265      -0.186       0.676
-pct_highway                      3.5858      1.701      2.108      0.035       0.252       6.919
-pct_arterial                     0.8571      1.831      0.468      0.640      -2.732       4.446
-pct_local                        1.3717      2.190      0.626      0.531      -2.921       5.664
+const                          -21.2037     11.573     -1.832      0.067     -43.886       1.479
+miles                           -0.0002      0.003     -0.090      0.928      -0.006       0.005
+trip_count                       0.0215      0.069      0.312      0.755      -0.114       0.157
+harsh_brake_rate_per_100mi      -0.0149      0.046     -0.325      0.745      -0.105       0.075
+harsh_accel_rate_per_100mi      -0.0313      0.056     -0.565      0.572      -0.140       0.077
+harsh_lateral_rate_per_100mi     0.0795      0.062      1.288      0.198      -0.042       0.201
+speeding_pct_over_5              6.6531     12.938      0.514      0.607     -18.705      32.011
+speeding_pct_over_10           -12.4059     30.122     -0.412      0.680     -71.444      46.633
+speeding_pct_over_15             5.9401     42.199      0.141      0.888     -76.768      88.648
+night_pct                        4.0580      2.089      1.943      0.052      -0.036       8.151
+wet_pct                          1.4900      2.352      0.633      0.526      -3.120       6.100
+volatility_jerk_p95              0.0786      0.216      0.364      0.716      -0.345       0.502
+pct_highway                     -9.4801      5.631     -1.684      0.092     -20.516       1.556
+pct_arterial                   -31.7731     14.587     -2.178      0.029     -60.364      -3.183
+pct_local                       20.0496      8.601      2.331      0.020       3.192      36.907
+crash_density_index             58.0564     26.618      2.181      0.029       5.886     110.227
+theft_risk_index                 4.5818      4.543      1.008      0.313      -4.323      13.487
 ================================================================================================

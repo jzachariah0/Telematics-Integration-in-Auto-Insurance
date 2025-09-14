@@ -32,6 +32,14 @@
 - **pct_arterial**: Percentage of miles driven on arterial roads
 - **pct_local**: Percentage of miles driven on local roads
 
+### Contextual Risk Factors
+- **crash_density_index**: External crash risk index based on road class and location (0.3-0.9)
+  - Highway: ~0.6, Arterial: ~0.8, Local: ~0.3 with spatial variation
+  - Higher values indicate areas with more frequent traffic incidents
+- **theft_risk_index**: External theft risk index based on geographic area (0.2-0.9)
+  - Most areas: 0.2-0.4 (low risk), Some areas: 0.7-0.9 (high risk)
+  - Reflects vehicle theft and crime patterns in the driving area
+
 ## Target Variables (Synthetic)
 
 ### Claims Frequency and Severity
@@ -42,7 +50,8 @@
 ### Risk Model
 The synthetic targets are generated using a risk index:
 ```
-risk = 0.8×speeding_pct_over_10 + 0.5×night_pct + 0.4×harsh_brake_rate_per_100mi/5 + 0.3×wet_pct + 0.2×volatility_jerk_p95/5
+risk = 0.8×speeding_pct_over_10 + 0.5×night_pct + 0.4×harsh_brake_rate_per_100mi/5 + 
+       0.3×wet_pct + 0.2×volatility_jerk_p95/5 + 0.25×crash_density_index + 0.20×theft_risk_index
 ```
 
 Higher risk drivers have higher expected frequency and severity of claims.

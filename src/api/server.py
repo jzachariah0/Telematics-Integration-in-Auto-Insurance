@@ -35,6 +35,157 @@ pricing_data = []
 pricing_by_user = {}
 
 
+def get_feature_mapping():
+    """Return mapping of technical features to plain English explanations."""
+    return {
+        # Handle both underscore and space versions of feature names
+        'night_pct': {
+            'plain': 'You drive a lot at night, which increases risk due to reduced visibility',
+            'technical': 'Percentage of driving during nighttime hours'
+        },
+        'night pct': {
+            'plain': 'You drive a lot at night, which increases risk due to reduced visibility',
+            'technical': 'Percentage of driving during nighttime hours'
+        },
+        'pct_highway': {
+            'plain': 'Most of your driving is on highways, which reduces risk compared to city traffic',
+            'technical': 'Percentage of miles driven on highways'
+        },
+        'pct highway': {
+            'plain': 'Most of your driving is on highways, which reduces risk compared to city traffic',
+            'technical': 'Percentage of miles driven on highways'
+        },
+        'wet_pct': {
+            'plain': 'You drive in rain or wet conditions more often, which increases crash risk',
+            'technical': 'Percentage of driving in wet weather conditions'
+        },
+        'wet pct': {
+            'plain': 'You drive in rain or wet conditions more often, which increases crash risk',
+            'technical': 'Percentage of driving in wet weather conditions'
+        },
+        'hard_accel_rate_per_100mi': {
+            'plain': 'You accelerate aggressively more often, which increases accident risk',
+            'technical': 'Rate of hard acceleration events per 100 miles'
+        },
+        'hard accel rate per 100mi': {
+            'plain': 'You accelerate aggressively more often, which increases accident risk',
+            'technical': 'Rate of hard acceleration events per 100 miles'
+        },
+        'harsh_lateral_rate_per_100mi': {
+            'plain': 'You make sharp turns or lane changes often, which increases risk',
+            'technical': 'Rate of harsh lateral movement events per 100 miles'
+        },
+        'harsh lateral rate per 100mi': {
+            'plain': 'You make sharp turns or lane changes often, which increases risk',
+            'technical': 'Rate of harsh lateral movement events per 100 miles'
+        },
+        'hard_brake_rate_per_100mi': {
+            'plain': 'You brake hard more often, which may indicate following too closely',
+            'technical': 'Rate of hard braking events per 100 miles'
+        },
+        'hard brake rate per 100mi': {
+            'plain': 'You brake hard more often, which may indicate following too closely',
+            'technical': 'Rate of hard braking events per 100 miles'
+        },
+        'speeding_pct_over_5': {
+            'plain': 'You drive slightly over the speed limit (5+ mph) regularly',
+            'technical': 'Percentage of time speeding >5 mph over limit'
+        },
+        'speeding pct over 5': {
+            'plain': 'You drive slightly over the speed limit (5+ mph) regularly',
+            'technical': 'Percentage of time speeding >5 mph over limit'
+        },
+        'speeding_pct_over_10': {
+            'plain': 'You drive well over the speed limit (10+ mph) more often',
+            'technical': 'Percentage of time speeding >10 mph over limit'
+        },
+        'speeding pct over 10': {
+            'plain': 'You drive well over the speed limit (10+ mph) more often',
+            'technical': 'Percentage of time speeding >10 mph over limit'
+        },
+        'speeding_pct_over_15': {
+            'plain': 'You drive far above the speed limit (15+ mph) frequently',
+            'technical': 'Percentage of time speeding >15 mph over limit'
+        },
+        'speeding pct over 15': {
+            'plain': 'You drive far above the speed limit (15+ mph) frequently',
+            'technical': 'Percentage of time speeding >15 mph over limit'
+        },
+        'volatility_jerk_p95': {
+            'plain': 'Your driving style is more "jerky" with sudden speed changes',
+            'technical': '95th percentile of jerk (rate of acceleration change)'
+        },
+        'volatility jerk p95': {
+            'plain': 'Your driving style is more "jerky" with sudden speed changes',
+            'technical': '95th percentile of jerk (rate of acceleration change)'
+        },
+        'pct_arterial': {
+            'plain': 'You drive frequently on busy arterial roads with traffic lights and intersections',
+            'technical': 'Percentage of miles driven on arterial roads'
+        },
+        'pct arterial': {
+            'plain': 'You drive frequently on busy arterial roads with traffic lights and intersections',
+            'technical': 'Percentage of miles driven on arterial roads'
+        },
+        'pct_local': {
+            'plain': 'You do more neighborhood driving with pedestrians and stop signs',
+            'technical': 'Percentage of miles driven on local roads'
+        },
+        'pct local': {
+            'plain': 'You do more neighborhood driving with pedestrians and stop signs',
+            'technical': 'Percentage of miles driven on local roads'
+        },
+        'crash_density_index': {
+            'plain': 'You drive in areas with higher crash rates than average',
+            'technical': 'External crash risk index based on road class and location'
+        },
+        'crash density index': {
+            'plain': 'You drive in areas with higher crash rates than average',
+            'technical': 'External crash risk index based on road class and location'
+        },
+        'theft_risk_index': {
+            'plain': 'You often drive in higher-crime areas, which increases theft risk',
+            'technical': 'External theft risk index based on geographic area'
+        },
+        'theft risk index': {
+            'plain': 'You often drive in higher-crime areas, which increases theft risk',
+            'technical': 'External theft risk index based on geographic area'
+        },
+        'miles': {
+            'plain': 'Your total driving distance affects your exposure to potential accidents',
+            'technical': 'Total miles driven in the month'
+        },
+        'trip_count': {
+            'plain': 'You take many short trips, which can be riskier than fewer long trips',
+            'technical': 'Total number of trips taken in the month'
+        },
+        'trip count': {
+            'plain': 'You take many short trips, which can be riskier than fewer long trips',
+            'technical': 'Total number of trips taken in the month'
+        }
+    }
+
+
+def parse_reason_string(reason_str):
+    """
+    Parse a reason string like 'night_pct (+2453.276)' into components.
+    Returns: (feature_name, shap_value, increases_risk)
+    """
+    import re
+    
+    # Extract feature name and SHAP value using regex
+    match = re.match(r'^([^(]+)\s*\(([+-]?\d+\.?\d*)\)', reason_str.strip())
+    
+    if match:
+        feature_name = match.group(1).strip()
+        shap_value = float(match.group(2))
+        increases_risk = shap_value > 0
+        return feature_name, shap_value, increases_risk
+    else:
+        # Fallback for malformed strings
+        return reason_str.strip(), 0.0, False
+
+
 def create_templates_directory():
     """Create templates directory and HTML template."""
     templates_dir = Path("src/api/templates")
@@ -731,7 +882,11 @@ async def get_user_chart(user_id: str):
 @app.get("/", response_class=HTMLResponse)
 async def dashboard(request: Request):
     """Serve the main dashboard page."""
-    return templates.TemplateResponse("index.html", {"request": request})
+    feature_mapping = get_feature_mapping()
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "feature_mapping": feature_mapping
+    })
 
 
 if __name__ == "__main__":
