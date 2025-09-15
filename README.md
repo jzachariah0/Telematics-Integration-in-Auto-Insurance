@@ -1,4 +1,4 @@
-# InsurityAI - Telematics Insurance Platform
+# Telematics Insurance Platform
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-green.svg)](https://fastapi.tiangolo.com/)
@@ -6,7 +6,7 @@
 
 A comprehensive telematics-based insurance platform that uses driving behavior data to assess risk and calculate personalized premiums. Built with modern machine learning techniques and regulatory compliance in mind.
 
-## 🚀 Features
+## Features
 
 - **Advanced Risk Assessment**: 16 sophisticated risk features including contextual factors
 - **Real-time Dashboard**: Interactive web interface for premium calculation and risk analysis
@@ -15,7 +15,7 @@ A comprehensive telematics-based insurance platform that uses driving behavior d
 - **Contextual Risk Factors**: External data integration for crash density and theft risk
 - **Multiple ML Models**: GLM and LightGBM ensemble for robust predictions
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 The platform provides an intuitive dashboard showing:
 - Risk index and telematics factor calculations
@@ -24,7 +24,7 @@ The platform provides an intuitive dashboard showing:
 - Risk trend visualization charts
 - Regulatory compliance indicators
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 InsurityAI-Project/
@@ -49,7 +49,7 @@ InsurityAI-Project/
 └── infra/                     # Infrastructure and deployment
 ```
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -93,7 +93,7 @@ InsurityAI-Project/
 7. **Access the dashboard**
    Open your browser to: `http://localhost:8001`
 
-## 📈 Risk Features
+## Risk Features
 
 The platform analyzes **16 comprehensive risk factors**:
 
@@ -107,7 +107,7 @@ The platform analyzes **16 comprehensive risk factors**:
 - **Wet Weather**: Percentage of driving in wet conditions
 - **Road Types**: Highway vs. arterial vs. local road exposure
 
-### Contextual Risk Factors ⭐
+### Contextual Risk Factors 
 - **Crash Density Index**: External crash frequency data by location and road type
 - **Theft Risk Index**: Vehicle theft probability based on geographic area
 
@@ -132,7 +132,7 @@ The platform analyzes **16 comprehensive risk factors**:
 - **Transparency**: Both technical and plain English descriptions
 - **Regulatory**: Meets insurance transparency requirements
 
-## 💰 Pricing Engine
+## Pricing Engine
 
 The pricing system implements industry-standard practices:
 
@@ -149,14 +149,14 @@ The pricing system implements industry-standard practices:
 Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 ```
 
-## 🔍 API Endpoints
+## API Endpoints
 
 - `GET /` - Interactive dashboard
 - `GET /health` - System health check
 - `GET /api/pricing` - Pricing data for all users
 - `GET /api/chart/{user_id}` - Risk trend visualization
 
-## 📊 Data Pipeline
+## Data Pipeline
 
 1. **Raw Data**: Simulated telematics trips with GPS, speed, and behavior events
 2. **Feature Engineering**: 16 features extracted per user per month
@@ -166,7 +166,7 @@ Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 6. **Pricing**: Risk-based premiums with regulatory compliance
 7. **Dashboard**: Real-time visualization and explanations
 
-## 🏛️ Regulatory Compliance
+## Regulatory Compliance
 
 - **Transparency**: SHAP explanations for every risk assessment
 - **Rate Caps**: Regulatory limits on premium adjustments
@@ -174,7 +174,7 @@ Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 - **Data Privacy**: Anonymized user identifiers
 - **Audit Trail**: Complete lineage from raw data to final premium
 
-## 🛠️ Development
+## Development
 
 ### Adding New Features
 
@@ -195,13 +195,13 @@ Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 - Cross-validation and performance metrics
 - A/B testing framework for pricing strategies
 
-## 📝 Documentation
+## Documentation
 
 - **Data Dictionary**: `docs/data_dictionary.md` - Complete feature definitions
 - **API Docs**: Available at `http://localhost:8001/docs` when server is running
 - **Model Cards**: Detailed documentation of model performance and limitations
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -209,18 +209,14 @@ Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **SHAP**: For model explainability framework
 - **LightGBM**: For gradient boosting capabilities
 - **FastAPI**: For modern web API framework
 - **Insurance Industry**: For regulatory guidance and best practices
 
-## 📞 Support
+## Support
 
 For questions, issues, or contributions:
 - Create an issue on GitHub
