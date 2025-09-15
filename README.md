@@ -140,8 +140,8 @@ The pricing system implements industry-standard practices:
 2. **Risk Index**: Calculated from 16 features using trained models
 3. **Telematics Factor**: Risk-based multiplier (0.7x - 1.3x range)
 4. **Regulatory Caps**: 
-   - Monthly: ±30% adjustment limit
-   - Quarterly: ±40% adjustment limit
+   - Monthly: ±10% adjustment limit
+   - Quarterly: ±25% adjustment limit
    - First Month: Grace period with minimal adjustment
 
 ### Formula
