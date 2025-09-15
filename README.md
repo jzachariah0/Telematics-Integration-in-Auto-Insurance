@@ -28,26 +28,69 @@ The platform provides an intuitive dashboard showing:
 
 ```
 InsurityAI-Project/
+├── bin/                       # Build and deployment scripts
+│   ├── setup.sh              # Environment setup automation
+│   ├── train.sh              # Complete ML pipeline
+│   ├── serve.sh              # Dashboard server
+│   └── test.sh               # Test suite runner
 ├── src/
-│   ├── api/                    # FastAPI web server
-│   │   ├── server.py          # Main API server
-│   │   └── templates/         # Dashboard HTML templates
-│   ├── features/              # Feature engineering pipeline
-│   │   └── build_features.py  # Enhanced 16-feature extraction
-│   ├── models/                # ML model training and inference
-│   │   └── train.py          # GLM + LightGBM ensemble training
-│   ├── pricing/               # Premium calculation engine
-│   │   └── run_pricing.py    # Risk-based pricing with SHAP
-│   └── dashboard/             # Legacy dashboard components
+│   ├── api/                  # FastAPI web server
+│   │   ├── server.py         # Main API server
+│   │   └── templates/        # Dashboard HTML templates
+│   ├── features/             # Feature engineering pipeline
+│   │   └── build_features.py # Enhanced 16-feature extraction
+│   ├── models/               # ML model training and inference
+│   │   └── train.py         # GLM + LightGBM ensemble training
+│   └── pricing/              # Premium calculation engine
+│       └── run_pricing.py   # Risk-based pricing with SHAP
 ├── data/
-│   ├── raw/                   # Original telematics data
-│   ├── processed/             # Cleaned and processed data
-│   └── features/              # Engineered features (16 total)
-├── models/                    # Trained model artifacts
-├── charts/                    # Generated risk visualization charts
-├── docs/                      # Documentation and data dictionary
-└── infra/                     # Infrastructure and deployment
+│   ├── raw/                  # Original telematics data
+│   ├── features.parquet      # Engineered features (16 total)
+│   ├── pricing_results.json  # Final premium calculations
+│   └── reason_codes.jsonl   # SHAP explanations
+├── models/                   # Trained model artifacts
+│   ├── glm.pkl              # Generalized Linear Model
+│   └── lgbm.pkl             # LightGBM Ensemble
+├── docs/                     # Comprehensive documentation
+│   ├── data_dictionary.md   # Feature definitions
+│   ├── model_card.md        # Model documentation
+│   ├── dpia.md              # Privacy impact assessment
+│   └── metrics/             # Performance visualizations
+├── tests/                    # Unit test suite
+│   ├── test_pipeline.py     # Comprehensive pipeline tests
+│   └── __init__.py          # Test runner
+├── requirements.txt          # Pinned dependencies
+├── .env.example             # Environment configuration template
+└── CHANGELOG.md             # Release notes and version history
 ```
+
+## Build Process
+
+InsurityAI uses a standardized build process with automated scripts:
+
+### `/bin/setup.sh` - Environment Setup
+- Creates Python virtual environment
+- Installs dependencies with version pinning
+- Cross-platform compatibility (Windows/macOS/Linux)
+- Dependency verification
+
+### `/bin/train.sh` - ML Pipeline
+- Feature engineering (16 sophisticated risk factors)
+- Model training (GLM + LightGBM ensemble)
+- Premium calculation with SHAP explanations
+- Model validation and metrics generation
+
+### `/bin/serve.sh` - Production Server
+- Validates trained models exist
+- Starts FastAPI dashboard on port 8001
+- Background process management
+- Health check endpoints
+
+### `/bin/test.sh` - Quality Assurance
+- Import validation for all modules
+- Data structure integrity checks
+- Pipeline parameter validation
+- Model artifact verification
 
 ## Installation & Setup
 
@@ -56,6 +99,7 @@ InsurityAI-Project/
 - Python 3.8 or higher
 - pip package manager
 - 4GB+ RAM (for model training)
+- Git (for repository cloning)
 
 ### Quick Start
 
@@ -65,33 +109,70 @@ InsurityAI-Project/
    cd InsurityAI-Project
    ```
 
-2. **Install dependencies**
+2. **Environment Setup** (Automated)
    ```bash
-   pip install pandas numpy scikit-learn lightgbm fastapi uvicorn jinja2 matplotlib seaborn shap
+   ./bin/setup.sh
    ```
+   This script will:
+   - Create a Python virtual environment
+   - Install all dependencies with pinned versions
+   - Verify the installation
 
-3. **Build features (synthetic data)**
+3. **Train Models** (Complete Pipeline)
    ```bash
-   python src/features/build_features.py
+   ./bin/train.sh
    ```
+   This runs the full ML pipeline:
+   - Feature engineering (16 risk factors)
+   - Model training (GLM + LightGBM)
+   - Premium calculation with SHAP explanations
 
-4. **Train models**
+4. **Start Dashboard** (Production Server)
    ```bash
-   python src/models/train.py
+   ./bin/serve.sh
    ```
+   
+5. **Access the Dashboard**
+   - **Main Interface**: `http://localhost:8001`
+   - **API Documentation**: `http://localhost:8001/docs`
+   - **Health Check**: `http://localhost:8001/health`
 
-5. **Generate pricing data**
-   ```bash
-   python src/pricing/run_pricing.py
-   ```
+### Alternative: Manual Setup
 
-6. **Start the dashboard**
-   ```bash
-   python src/api/server.py
-   ```
+If you prefer manual installation:
 
-7. **Access the dashboard**
-   Open your browser to: `http://localhost:8001`
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate environment (Windows)
+.venv\Scripts\activate
+# Activate environment (macOS/Linux)
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run pipeline manually
+python src/features/build_features.py
+python src/models/train.py
+python src/pricing/run_pricing.py
+python src/api/server.py
+```
+
+### Verification
+
+Run the test suite to verify everything is working:
+
+```bash
+./bin/test.sh
+```
+
+This validates:
+- All modules import correctly
+- Required data files exist
+- Models are properly trained
+- API endpoints respond correctly
 
 ## Risk Features
 
@@ -176,24 +257,66 @@ Final Premium = Base Premium × min(Telematics Factor, Regulatory Caps)
 
 ## Development
 
+### Development Workflow
+
+1. **Environment Setup**
+   ```bash
+   ./bin/setup.sh              # One-time setup
+   source .venv/bin/activate   # Activate environment
+   ```
+
+2. **Development Cycle**
+   ```bash
+   # Make changes to code
+   ./bin/test.sh               # Run tests
+   ./bin/train.sh              # Retrain if needed
+   ./bin/serve.sh              # Test dashboard
+   ```
+
+3. **Quality Assurance**
+   ```bash
+   ./bin/test.sh               # Full test suite
+   python -m pytest tests/     # Alternative test runner
+   ```
+
 ### Adding New Features
 
-1. Update `src/features/build_features.py` with new feature logic
-2. Retrain models with `python src/models/train.py`
-3. Update feature descriptions in the dashboard
-4. Regenerate pricing data
+1. **Risk Features**: Update `src/features/build_features.py`
+   - Add new feature extraction logic
+   - Update feature documentation
+   - Retrain models with `./bin/train.sh`
 
-### Customizing the Dashboard
+2. **Model Improvements**: Modify `src/models/train.py`
+   - Hyperparameter optimization
+   - New model architectures
+   - Cross-validation enhancements
 
-- Templates: `src/api/templates/index.html`
-- Feature descriptions: Built into JavaScript mapping
-- Styling: Basic HTML/CSS for simplicity
+3. **Dashboard Updates**: Edit `src/api/templates/index.html`
+   - UI/UX improvements
+   - New visualization types
+   - Feature explanation updates
 
-### Model Improvements
+### Testing Strategy
 
-- Hyperparameter tuning in `src/models/train.py`
-- Cross-validation and performance metrics
-- A/B testing framework for pricing strategies
+- **Unit Tests**: Import validation, parameter checks
+- **Integration Tests**: End-to-end pipeline validation
+- **Data Tests**: Feature engineering correctness
+- **API Tests**: Endpoint functionality and performance
+
+### Environment Configuration
+
+Copy `.env.example` to `.env` and customize:
+
+```bash
+cp .env.example .env
+# Edit .env with your specific configuration
+```
+
+Key configuration options:
+- API settings (host, port, debug mode)
+- Model hyperparameters
+- Rate caps and regulatory settings
+- Logging and monitoring
 
 ## Documentation
 
