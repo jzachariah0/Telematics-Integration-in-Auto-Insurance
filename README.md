@@ -1,10 +1,12 @@
-# Telematics Insurance Platform
+# InsurityAI – Telematics Dashboard for Auto Insurance
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-green.svg)](https://fastapi.tiangolo.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive telematics-based insurance platform that uses driving behavior data to assess risk and calculate personalized premiums. Built with modern machine learning techniques and regulatory compliance in mind.
+
+**Licensed under MIT License** - See LICENSE file for details.
 
 ## Features
 
@@ -32,7 +34,8 @@ InsurityAI-Project/
 │   ├── setup.sh              # Environment setup automation
 │   ├── train.sh              # Complete ML pipeline
 │   ├── serve.sh              # Dashboard server
-│   └── test.sh               # Test suite runner
+│   ├── test.sh               # Test suite runner
+│   └── quality.sh            # Code quality and linting checks
 ├── src/
 │   ├── api/                  # FastAPI web server
 │   │   ├── server.py         # Main API server
@@ -91,6 +94,12 @@ InsurityAI uses a standardized build process with automated scripts:
 - Data structure integrity checks
 - Pipeline parameter validation
 - Model artifact verification
+
+### `/bin/quality.sh` - Code Quality
+- Code linting with flake8
+- Import sorting validation
+- Code formatting checks with black
+- Type checking with mypy
 
 ## Installation & Setup
 
@@ -346,6 +355,20 @@ For questions, issues, or contributions:
 - Review the documentation in `/docs`
 - Check the API documentation at `/docs` endpoint
 
+**Contact:** Joshua Zachariah  
+**Email:** joshuaszachariah@gmail.com  
+**Phone:** 469-858-5532
+
 ---
 
 **Built with ❤️ for transparent, fair, and data-driven insurance pricing**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Joshua Zachariah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
